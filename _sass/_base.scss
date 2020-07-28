@@ -21,6 +21,26 @@ journal{
 }
 
 
+code {
+  font-family: 'Courier New',Courier,Fixed;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 1.1em;
+  line-height: normal;
+  font-size-adjust: none;
+  font-stretch: normal;
+}
+
+h1 { font-size: 190%; }
+h2 { font-size: 140%; }
+h3 { font-size: 130%; }
+h4 { font-size: 110%; }
+h44 { font-size: 110%; }
+h5 { font-size: 110%; }
+h6 { font-size: 80%;  }
+h7 { font-size: 110%;  }
+
 
 // Typography
 
@@ -56,7 +76,9 @@ a, table.table a {
 
 .profile {
     .address {
-      font-family: monospace;
+	font-family: luxi serif, georgia, times new roman, times, serif;
+	
+	//font-family: monospace;
       font-size: 1.2rem;
       p {
         margin: 0;
@@ -199,10 +221,10 @@ footer.sticky-bottom {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 5rem;
-  h1 {
-    color: $theme-color;
-    font-size: 5rem;
-  }
+//  h1 {
+//    color: $theme-color;
+//    font-size: 5rem;
+//  }
 }
 
 .post-list {
