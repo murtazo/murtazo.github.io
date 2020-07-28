@@ -6,6 +6,8 @@ description: publications by categories in reversed chronological order. generat
 nav: true
 ---
 
+#HTML
+
 		  <h2>Publications</h2>
 		  
 		  <ol reversed>
