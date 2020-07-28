@@ -21,17 +21,6 @@ journal{
 }
 
 
-code {
-  font-family: 'Courier New',Courier,Fixed;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  font-size: 1.1em;
-  line-height: normal;
-  font-size-adjust: none;
-  font-stretch: normal;
-}
-
 h1 { font-size: 190%; }
 h2 { font-size: 140%; }
 h3 { font-size: 130%; }
@@ -88,8 +77,9 @@ h3{
 }
 
 h2{
-    padding: 0 0 0;
+    padding: -2em 0 0;
     padding-bottom: 20;
+    padding-top: 10;
 }
 
 h44{
