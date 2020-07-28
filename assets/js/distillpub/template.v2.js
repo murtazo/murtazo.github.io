@@ -9081,7 +9081,7 @@ distill-header .nav a {
 
 :host {
   color: rgba(255, 255, 255, 0.5);
-  font-weight: 300;
+  // font-weight: 300;
   padding: 2rem 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   background-color: hsl(180, 5%, 15%); /*hsl(200, 60%, 15%);*/
