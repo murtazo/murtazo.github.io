@@ -179,7 +179,8 @@ a, table.table a {
   }
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
-      color: $theme-color;
+      //color: $theme-color;
+      color: #800517;
       font-weight: bolder;
       &:hover {
         color: $theme-color;
