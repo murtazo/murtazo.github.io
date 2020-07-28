@@ -35,8 +35,8 @@ h1, h2, h44, h3, h4, h5, h6 {
     font-weight: normal;
     font-family: luxi serif, georgia, times new roman, times, serif;
     background: none;
-    padding: .0em 0 0;
-    padding-bottom: 0em;
+    padding: 0 0 0;
+    padding-bottom: 0.8em;
     margin: 0;
     line-height: 1.1em;
 }
@@ -50,13 +50,6 @@ author{
     line-height: 0.1em;
 }
 
-ol[title]::before {
-    content: attr(title);
-    /* then add some nice styling as needed, eg: */
-    display: block;
-    font-weight: bold;
-    padding: 4px;
-}
 
 ////
 //// end of editing of murtazo
