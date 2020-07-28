@@ -6,8 +6,42 @@ description: publications by categories in reversed chronological order. generat
 nav: true
 ---
 
+		  <h2>Publications</h2>
+		  
+		  <ol reversed>
+		  <h44>Preprints and in preparation</h44>		 
+
+
+		    <li>
+		      <p>
+			<author>
+			  Muhamadiev E.M, Nazarov M.
+			</author> 
+			On almost periodic solutions of the Poisson's equation.
+			<br>
+			(2017);
+			<journal>
+			  submitted
+			</journal> 
+		      </p>
+
+		    <li>
+		      <p>
+			<author>
+			  Guermond J.-L., Nazarov M., Popov B.
+			</author> 
+			Convergence of an invariant domain preserving scheme.
+			<br>
+			(2017);
+			<journal>
+			  to be submitted.
+			</journal> 
+		      </p>
+
+
+
 <div class="publications">
 
-{% include papers.html %}
+klsdklsdk sdsd
 
 </div>
