@@ -41,6 +41,68 @@ h5 { font-size: 110%; }
 h6 { font-size: 80%;  }
 h7 { font-size: 110%;  }
 
+h1, h2, h44, h3, h4, h5, h6 {
+    color: #800517;/*#400000;*/ 
+    font-weight: normal;
+    font-family: luxi serif, georgia, times new roman, times, serif;
+    background: none;
+    padding: .0em 0 0;
+    padding-bottom: 0.em;
+    margin: 0;
+    line-height: 1.1em;
+}
+
+h7 {
+    /*color: #400000;*/
+    font-weight: normal;
+    font-family: luxi serif, georgia, times new roman, times, serif;
+    background: none;
+    padding: 2em 0 0;
+    padding-bottom: 2em;
+    margin: 0em;
+    line-height: 1.2em;
+}
+
+h6{
+    padding: 10 0 0;
+    padding-bottom: 5;
+    padding-top: 0;
+}
+
+h5{
+    padding: 5 0 0;
+    padding-bottom: 5;
+    padding-top: 0;
+}
+
+h4{
+    padding: 10 0 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+h3{
+    padding: 10 0 0;
+    padding-bottom: 5;
+    padding-top: 10;
+}
+
+h2{
+    padding: 10 0 0;
+    padding-bottom: 10;
+}
+
+h44{
+    margin-left:-1.8em;
+    padding: 10 0 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+
+////
+//// end of editing of murtazo
+
 
 // Typography
 
