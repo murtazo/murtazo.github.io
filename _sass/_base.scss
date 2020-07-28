@@ -31,7 +31,6 @@ h1, h2{
     font-family: luxi serif, georgia, times new roman, times, serif;
     background: none;
     padding: 0 0 0;
-    padding-bottom: 0.8em;
     line-height: 1.1em;
 }
 
@@ -41,9 +40,8 @@ h3{
     font-family: luxi serif, georgia, times new roman, times, serif;
     background: none;
     padding: 0 0 0;
-    padding-bottom: 0.8em;
     line-height: 1.1em; 
-    margin-left: -1.45em;
+    margin-left: -1.8em;
 }
 
 author{
@@ -55,6 +53,15 @@ author{
     line-height: 0.1em;
 }
 
+#footer ol {
+    margin: 0; 
+    padding: 0; 
+}
+
+#footer li {
+    margin: 0; 
+    padding: 0; 
+}
 
 ////
 //// end of editing of murtazo
