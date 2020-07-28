@@ -50,6 +50,13 @@ author{
     line-height: 0.1em;
 }
 
+ol[title]::before {
+    content: attr(title);
+    /* then add some nice styling as needed, eg: */
+    display: block;
+    font-weight: bold;
+    padding: 4px;
+}
 
 ////
 //// end of editing of murtazo
