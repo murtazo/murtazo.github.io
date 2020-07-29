@@ -13,7 +13,10 @@
       {% endif %}
       {% assign lastname = name | last %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-       <span class="font-weight-bold color: #800517">{{ firstname }}</span> {{ middlenames }}  {{ lastname }}
+	<span class="font-weight-bold">{{ firstname }}</span>
+	<span style="color: #800517">
+	  {{ middlenames }}  {{ lastname }}
+	</span>
       </a>
       {% elsif site.show_social_icons %}
       <!-- Social Icons -->
