@@ -5,11 +5,16 @@
     <div class="container">
       {% if page.title != "about" %}
       {% assign name = site.title | split: ' ' %}
-      <a class="navbar-brand title font-weight-lighter color: #800517;" href="{{ site.baseurl | prepend: site.url }}/"><span class="font-weight-bold"> 
-	  <span class="font-weight-bold">
-	    {{ name | first }}
-	  </span>
-	  {{ name | last }}
+      {% assign firstname = name | first %}
+      {% if name.size > 2 %}
+         {% assign middlenames =  name | slice:1, name.size-1 | join:" " %}
+      {% else %}
+         {% assign middlenames = '' %}
+      {% endif %}
+      {% assign lastname = name | last %}
+      <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
+	<span class="font-weight-bold color: #800517;">{{ firstname }}
+	</span> {{ middlenames }}  {{ lastname }}
       </a>
       {% elsif site.show_social_icons %}
       <!-- Social Icons -->
