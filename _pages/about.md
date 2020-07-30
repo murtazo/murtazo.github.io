@@ -13,6 +13,7 @@ profile:
     <p>ITC building 2, floor 4, room 2421 <br>
     Lagerhyddsvägen 2 <br>
     752 37, Uppsala, Sweden
+    {% include social.html %}
    </p>
    </h4>
 
