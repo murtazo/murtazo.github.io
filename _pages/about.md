@@ -8,9 +8,9 @@ profile:
   align: left
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>ITC building 2, floor 4, room 2421</p>
+    <p>Lagerhyddsvägen 2</p>
+    <p>752 37, Uppsala, Sweden</p>
 
 news: true
 social: true
