@@ -2,8 +2,9 @@
 layout: about
 title: about
 permalink: /
-description_lab: <a href="www.it.uu.se"> Division of Scientific Computing, Department of Information Technology </a>
-description_lab: <a href="http://www.uu.se" class="page-description" target="_blank">Uppsala University</a>	
+description: Ascociate Professor
+description: Department of Information Technology
+description: Uppsala University
 
 profile:
   align: left
