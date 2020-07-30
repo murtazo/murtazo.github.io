@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-description: <a href="www.it.uu.se">Affiliations</a>. Division of Scientific Computing, Department of Information Technology, Uppsala University	
+description_lab: <a href="www.it.uu.se"> Division of Scientific Computing, Department of Information Technology </a>
+description_lab: <a href="http://www.uu.se" class="page-description" target="_blank">Uppsala University</a>	
 
 profile:
   align: left
