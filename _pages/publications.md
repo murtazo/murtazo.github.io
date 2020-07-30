@@ -6,4 +6,6 @@ description: publications by categories in reversed chronological order. generat
 nav: true
 ---
 
+{% include social.html %}
+
 {%include papers.html %} 
