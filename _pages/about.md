@@ -2,11 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="www.it.uu.se">Affiliations</a>.
-Division of Scientific Computing,
-Department of Information Technology,
-Uppsala University
-
+description: 
 profile:
   align: left
   image: prof_pic.jpg
