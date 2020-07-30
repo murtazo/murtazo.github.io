@@ -2,9 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Ascociate Professor
-	     Department of Information Technology
-	     Uppsala University
+description: Ascociate Professor, Department of Information Technology,  Uppsala University
 
 profile:
   align: left
