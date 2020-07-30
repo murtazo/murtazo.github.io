@@ -10,21 +10,11 @@ profile:
   image: 1.jpg
   address: >
    <h4>
-    <p>ITC building 2, floor 4, room 2421</p>
-    <p>Lagerhyddsvägen 2</p>
-    <p>752 37, Uppsala, Sweden</p>
+    <p>ITC building 2, floor 4, room 2421 <br>
+    Lagerhyddsvägen 2 <br>
+    752 37, Uppsala, Sweden</p>
    </h4>
-   <div id="socialMedia">
-   {% if site.social-media.email %}
-   <a href="mailto:{{ site.social-media.email }}" title="Email"><i class="fa fa-envelope-square"></i></a>
-   {% endif %}
-   {% if site.social-media.facebook %}
-   <a href="https://www.facebook.com/{{ site.social-media.facebook }}" title="Facebook"><i class="fa fa-facebook-square"></i></a>
-   {% endif %}
-   {% if site.social-media.twitter %}
-   <a href="https://www.twitter.com/{{ site.social-media.twitter }}" title="Twitter"><i class="fa fa-twitter-square"></i></a>
-   {% endif %}
-   </div>
+
 
 news: true
 social: true
