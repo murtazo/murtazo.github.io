@@ -14,8 +14,8 @@ profile:
     Lagerhyddsvägen 2 <br>
     752 37, Uppsala, Sweden
     </h4>
-    {%include social.html %}
    </p>
+   {%include social.html %}
 
 
 news: true
