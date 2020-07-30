@@ -8,7 +8,7 @@ description_lab: <a href="http://www.uu.se" class="page-description" target="_bl
 profile:
   align: left
   image: 1.jpg
-  address: >
+  address: 
     <p>
     <h4>ITC building 2, floor 4, room 2421 <br>
     Lagerhyddsvägen 2 <br>
