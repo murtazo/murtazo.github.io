@@ -9,13 +9,13 @@ profile:
   align: left
   image: 1.jpg
   address: >
-   <h4>
-    <p>ITC building 2, floor 4, room 2421 <br>
+    <p>
+    <h4>ITC building 2, floor 4, room 2421 <br>
     Lagerhyddsvägen 2 <br>
     752 37, Uppsala, Sweden
-    {% include social.html %}
+    </h4>
+    {%include social.html %}
    </p>
-   </h4>
 
 
 news: true
