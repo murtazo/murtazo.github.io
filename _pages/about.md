@@ -13,8 +13,12 @@ profile:
     <p>ITC building 2, floor 4, room 2421 <br>
     Lagerhyddsvägen 2 <br>
     752 37, Uppsala, Sweden
-    {% include social-media-links.html %}
-    </p>
+    <div id="socialMedia">
+{% if site.social-media.email %}
+    <a href="mailto:{{ site.social-media.email }}" title="Email"><i class="fa fa-envelope-square"></i></a>
+{% endif %}
+   </div>
+   </p>
    </h4>
 
 
