@@ -6,7 +6,7 @@ description: <a href="www.it.uu.se">Affiliations</a>. Division of Scientific Com
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: 1.jpg
   address: >
    <h4>
     <p>ITC building 2, floor 4, room 2421</p>
