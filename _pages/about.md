@@ -2,15 +2,18 @@
 layout: about
 title: about
 permalink: /
-description: 
+description: <a href="www.it.uu.se">Affiliations</a>. Division of Scientific Computing, Department of Information Technology, Uppsala University	
+
 profile:
   align: left
   image: prof_pic.jpg
   address: >
+   <h4>
     <p>ITC building 2, floor 4, room 2421</p>
     <p>Lagerhyddsvägen 2</p>
     <p>752 37, Uppsala, Sweden</p>
-
+   </h4>
+   
 news: true
 social: true
 ---
