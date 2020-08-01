@@ -19,6 +19,12 @@ news: true
 social: false
 ---
 
+
+<div class="something" markdown="1">
+  ## Heading 2
+  Some **bold** text.
+</div>
+
 I am an Associate Professor in the 
 <a href="http://www.it.uu.se/research/scicomp">Division of Scientific Computing</a> 
 of the <a href="http://www.it.uu.se">Department of Information Technology</a>
