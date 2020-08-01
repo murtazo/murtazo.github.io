@@ -19,18 +19,8 @@ news: true
 social: false
 ---
 
-### Header 3
-
-> This is a blockquote.
-> 
-> This is the second paragraph in the blockquote.
->
-> ## This is an H2 in a blockquote
-
-<div>
   ## Heading 2
   Some **bold** text.
-</div>
 
 I am an Associate Professor in the 
 <a href="http://www.it.uu.se/research/scicomp">Division of Scientific Computing</a> 
