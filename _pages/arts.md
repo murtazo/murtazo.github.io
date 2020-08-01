@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /arts/
-title: Plain Text Workflow
-author: XXX, XXX
-date: January 20, 2020
+title: Arts
+description: xxx
+nav: true
+author: Dennis Tenen, Grant Wythoff
+date: January 20, 2014
 ---
 
 # Section 1
