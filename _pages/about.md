@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Ascociate Professor, Department of Information Technology,  Uppsala University
+description: <a href="http://www.it.uu.se/research/scicomp">Division of Scientific Computing</a>, <a href="http://www.it.uu.se">Department of Information Technology</a>, <a href="http://www.uu.se">Uppsala University</a>
 
 profile:
   align: left
