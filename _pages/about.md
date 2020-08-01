@@ -43,12 +43,3 @@ Texas A&M University, USA. <br>
   Parabolic regularizations, maximum principle preserving schemes, entropy viscosity.
 </li>
 
-*  Numerical analysis of partial differential equations in particular
-  compressible and incompressible Navier-Stokes and Euler equations.
-
-* Stabilized methods for continuous finite elements.
-
-* Adaptive methods for turbulent flows,
-  Implicit Large Eddy Simulations, ILES.
-
-* Parabolic regularizations, maximum principle preserving schemes, entropy viscosity.
