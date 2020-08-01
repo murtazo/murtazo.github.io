@@ -27,23 +27,19 @@ Prior coming to Uppsala, I was a Visiting Assistant Professor of Mathematics at
 Texas A&M University, USA. <br>
 <br>
 
-<ul>
-  <li> <b>Research Interests:</b> 
-    <ul> 
-      <li> 
-	Numerical analysis of partial differential equations in particular
-	compressible and incompressible Navier-Stokes and Euler equations.
-      </li>
-      <li> 
-	Stabilized methods for continuous finite elements.
-      </li>
-      <li> 
-	Adaptive methods for turbulent flows,
-	Implicit Large Eddy Simulations, ILES.
-      </li>
-      <li> 
-	Parabolic regularizations, maximum principle preserving schemes, entropy viscosity.
-      </li>
-    </ul>
-</ul>
+<b>Research Interests:</b> 
+<li> 
+  Numerical analysis of partial differential equations in particular
+  compressible and incompressible Navier-Stokes and Euler equations.
+</li>
+<li> 
+  Stabilized methods for continuous finite elements.
+</li>
+<li> 
+  Adaptive methods for turbulent flows,
+  Implicit Large Eddy Simulations, ILES.
+</li>
+<li> 
+  Parabolic regularizations, maximum principle preserving schemes, entropy viscosity.
+</li>
 
