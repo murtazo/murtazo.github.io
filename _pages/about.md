@@ -20,7 +20,7 @@ social: false
 ---
 
 
-<div class="something" markdown="1">
+<div>
   ## Heading 2
   Some **bold** text.
 </div>
