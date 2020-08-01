@@ -24,7 +24,7 @@ Next paragraph should start like this. Do not indent.
 
 ## Subsection 2.1
 
-![image caption](1.jpg)
+![image caption](img/1.jpg)
 
 ## Subsection 2.2
 
