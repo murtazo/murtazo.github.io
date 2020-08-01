@@ -19,19 +19,54 @@ news: true
 social: false
 ---
 
-I am an Associate Professor in the Division of Scientific Computing of the Department of Information Technology at Uppsala University. Prior coming to Uppsala, I was a Visiting Assistant Professor of Mathematics at Texas A&M University, USA.
+</td>
+<td>&nbsp;&nbsp;
+</td>
+<td style="vertical-align: top">
+I am an Associate Professor in the 
+<a href="http://www.it.uu.se/research/scicomp">Division of Scientific Computing</a> 
+of the <a href="http://www.it.uu.se">Department of Information Technology</a>
+at <a href="http://www.uu.se">Uppsala University</a>. 
+Prior coming to Uppsala, I was a Visiting Assistant Professor of Mathematics at 
+Texas A&M University, USA. <br>
+<br>
 
-<h3> Research Interests: </h3>
-
-Numerical analysis of partial differential equations in particular compressible and incompressible Navier-Stokes and Euler equations.
+<ul>
+<li> <b>Research Interests:</b> 
+<ul> 
+<li> 
+Numerical analysis of partial differential equations in particular
+compressible and incompressible Navier-Stokes and Euler equations.
+</li>
+<li> 
 Stabilized methods for continuous finite elements.
-Adaptive methods for turbulent flows, Implicit Large Eddy Simulations, ILES.
+</li>
+<li> 
+Adaptive methods for turbulent flows,
+Implicit Large Eddy Simulations, ILES.
+</li>
+<li> 
 Parabolic regularizations, maximum principle preserving schemes, entropy viscosity.
-Contacts:
-Mailing address: Lägerhyddsvägen 2
-752 37, Uppsala, Sweden
-Visit: ITC building 2, floor 4, room 2421
-E-mail: murtazo.nazarov(at)it(dot)uu(dot)se
+</li>
+</ul>
+</ul>
+
+<ul>
+<li> <b>Contacts:</b> 
+<br>
+<ul> 
+<li> <b>Mailing address:</b> 
+Lägerhyddsvägen 2 <br>
+752 37, Uppsala, Sweden <br>
+</li>
+<li> <b>Visit:</b> 
+ITC building 2, floor 4, room 2421
+</li>
+</li>
+<li> <b> E-mail:</b> murtazo.nazarov<b>(at)</b>it<b>(dot)</b>uu<b>(dot)</b>se
+</li>
+</ul>
+</ul>
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
