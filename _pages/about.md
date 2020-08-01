@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 description: <a href="http://www.it.uu.se/research/scicomp">Division of Scientific Computing</a>, <a href="http://www.it.uu.se">Department of Information Technology</a>, <a href="http://www.uu.se">Uppsala University</a>
 
@@ -18,9 +18,6 @@ profile:
 news: true
 social: false
 ---
-
-  ## Heading 2
-  Some **bold** text.
 
 I am an Associate Professor in the 
 <a href="http://www.it.uu.se/research/scicomp">Division of Scientific Computing</a> 
@@ -45,8 +42,3 @@ Texas A&M University, USA. <br>
 <li> 
   Parabolic regularizations, maximum principle preserving schemes, entropy viscosity.
 </li>
-
-<div class="something" markdown="1">
-  ## Heading 2
-  Some **bold** text.
-</div>
