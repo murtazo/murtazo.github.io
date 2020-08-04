@@ -14,13 +14,9 @@ profile:
     752 37, Uppsala, Sweden
     </h4>
     <div class="row ml-1 ml-sm-0">
-    <div id="social-media">
-      <span class="contact-icon text-center">
+          <span class="contact-icon text-center">
       <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>	
-  <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>
-  <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
   </span>
-</div>
     </div>
    </p>
 
