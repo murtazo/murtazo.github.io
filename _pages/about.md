@@ -43,3 +43,7 @@ Texas A&M University, USA. <br>
   Parabolic regularizations, maximum principle preserving schemes, entropy viscosity.
 </li>
 
+<div class="row ml-1 ml-sm-0">
+{% include social.html %}
+</div>
+
