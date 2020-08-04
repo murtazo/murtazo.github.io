@@ -37,14 +37,14 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: # your GitHub user name
-twitter_username: # your Twitter handle
+twitter_username: murtazo.nazarov@gmail.com # your Twitter handle
 linkedin_username: murtazo.nazarov@gmail.com
 scholar_userid: murtazo.nazarov@gmail.com
-orcid_id: # your ORCID ID
+orcid_id: 0000-0003-4962-9048 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: murtazo.nazarov@it.uu.sete
+research_gate_profile: murtazo.nazarov@it.uu.se
 blogger_url: # your blogger URL
 
 contact_note: >
@@ -150,7 +150,7 @@ enable_katex:             true
 enable_mansory:           true
 enable_progressbar:       true
 enable_tooltips:          false
-show_social_icons:        true
+show_social_icons:        false
 
 # -----------------------------------------------------------------------------
 # Library versions
