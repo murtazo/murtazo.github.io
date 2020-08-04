@@ -13,7 +13,8 @@ profile:
     Lägerhyddsvägen 2 <br>
     752 37, Uppsala, Sweden
     </h4>
-      <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>	
+      <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
    </p>
 
 news: true
