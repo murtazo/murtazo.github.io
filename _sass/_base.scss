@@ -81,7 +81,7 @@ ol li {
 a, table.table a {
   color:  #800517; //$theme-color;
   &:hover {
-      color: #4d0100; //$theme-color;
+      color: #9a0200; //$theme-color;
     text-decoration: underline;
   }
   &:hover:after {
@@ -137,7 +137,7 @@ a, table.table a {
   }
   .navbar-nav .nav-item .nav-link {
     &:hover {
-      color: $theme-color;
+	color: #9a0200; //$theme-color;
     }
   }
   .navbar-nav .nav-item.active>.nav-link {
@@ -146,7 +146,7 @@ a, table.table a {
       color: #800517;
       font-weight: bolder;
       &:hover {
-        color: $theme-color;
+          color: #9a0200; //$theme-color;
       }
   }
   .contact-icon {
@@ -154,7 +154,7 @@ a, table.table a {
     a {
       color: $grey-color-dark;
       &:hover {
-        color: $theme-color;
+          color: #9a0200; //$theme-color;
       }
     }
   }
