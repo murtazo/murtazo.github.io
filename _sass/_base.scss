@@ -231,12 +231,12 @@ a, table.table a {
 
 footer.fixed-bottom {
     border-top: 1px solid #800517;
-    color: #cccccc; //lighten($grey-color, 100%);
+    color: #959595; //lighten($grey-color, 100%);
     background-color: #ffffff; //$grey-color-dark;
     font-size: 0.75rem;
   .container {
-    padding-top: 9px;
-    padding-bottom: 8px;
+    padding-top: 0px;
+    padding-bottom: 5px;
   }
   a {
     color: white;
