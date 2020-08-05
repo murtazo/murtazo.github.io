@@ -1,7 +1,5 @@
 <header>
 
-    <!-- Nav Bar -->
-    <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
       <td cellpadding="0" cellspacing="0" width="70%">
 	<table border="0" cellpadding="0" cellspacing="0" height="10" width="100%">
 	  <tr>
@@ -28,6 +26,9 @@
     <table border="0" cellpadding="0" cellspacing="0"  height="10"  width="100%">
       <tr>
 	<td>
+
+	  <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
       <div class="container">
       {% if page.title != "about" %}
       {% assign name = site.title | split: ' ' %}
@@ -78,11 +79,12 @@
         </ul>
       </div>
       </div>
-      	</td>
-      </tr>
-    </table>
-  </td>
     </nav>
+
+</td>
+</tr>
+</table>
+</td>
 
 
 </header>
