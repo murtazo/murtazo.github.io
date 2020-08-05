@@ -130,7 +130,7 @@ a, table.table a {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid $grey-color-light;
+  //border-bottom: 1px solid $grey-color-light;
   opacity: 0.95;
 }
 .navbar.navbar-light {
@@ -230,13 +230,13 @@ a, table.table a {
 // Footer
 
 footer.fixed-bottom {
-    border-top: 1px solid #800517;
-    color: #959595; //lighten($grey-color, 100%);
+    border-top: 0px solid #800517;
+    color: #6b6a6a; //lighten($grey-color, 100%);
     background-color: #ffffff; //$grey-color-dark;
     font-size: 0.75rem;
   .container {
     padding-top: 0px;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
   }
   a {
     color: white;
@@ -259,7 +259,7 @@ footer.sticky-bottom {
 // Blog
 
 .header-bar {
-  border-bottom: 1px solid #800517;
+  border-bottom: 0px solid #800517;
   //border-bottom: 1px solid $grey-color-light;
   text-align: center;
   padding-top: 2rem;
