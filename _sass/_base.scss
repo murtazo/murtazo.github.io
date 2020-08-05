@@ -230,8 +230,9 @@ a, table.table a {
 // Footer
 
 footer.fixed-bottom {
-    color: lighten($grey-color, 100%);
-    background-color: $grey-color-dark;
+    border-top: 1px solid #800517;
+    color: #cccccc; //lighten($grey-color, 100%);
+    background-color: #ffffff; //$grey-color-dark;
     font-size: 0.75rem;
   .container {
     padding-top: 9px;
