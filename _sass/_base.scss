@@ -79,7 +79,7 @@ ol li {
 // Typography
 
 a, table.table a {
-  color: $theme-color;
+  color:  #800517; //$theme-color;
   &:hover {
     color: $theme-color;
     text-decoration: underline;
@@ -210,7 +210,7 @@ a, table.table a {
   .contact-icon {
     font-size: 4rem;
     a {
-      color: $grey-color-dark;
+      color:  #800517; // $grey-color-dark;
       &:hover {
           color: #800517; // $theme-color;
       }
