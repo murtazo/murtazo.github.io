@@ -59,8 +59,7 @@ h5{
     font-weight: normal;
     font-family: luxi serif, georgia, times new roman, times, serif;
     background: none;
-    padding-bottom: -10;
-    padding-top: 10;
+    margin: 0;
 }
 
 author{
@@ -89,15 +88,15 @@ div.my_footer {
     margin-bottom: 0;
 }
 
-a {
-  color: #C12869; /*#575757;*/
-}
-a:hover {
-    color: #e70300; //#800517;/*#ff0000;*/
-}
-p a:visited {
-  color: #d069ff;
-}
+//a {
+//  color: #C12869; /*#575757;*/
+//}
+//a:hover {
+//    color: #e70300; //#800517;/*#ff0000;*/
+//}
+//a:visited {
+//  color: #d069ff;
+//}
 
 
 ////
@@ -107,7 +106,7 @@ p a:visited {
 // Typography
 
 a, table.table a {
-  color:  #C12869; //#800517; //$theme-color;
+  color:  #800517; //$theme-color;
   &:hover {
       color: #e70300; //#9a0200; //$theme-color;
     text-decoration: underline;
