@@ -86,7 +86,7 @@ div.my_footer {
 a, table.table a {
   color:  #800517; //$theme-color;
   &:hover {
-      color: #9a0200; //$theme-color;
+      color: #e70300; //#9a0200; //$theme-color;
     text-decoration: underline;
   }
   &:hover:after {
@@ -142,7 +142,7 @@ a, table.table a {
   }
   .navbar-nav .nav-item .nav-link {
     &:hover {
-	color: #9a0200; //$theme-color;
+	color: #e70300; // #9a0200; //$theme-color;
     }
   }
   .navbar-nav .nav-item.active>.nav-link {
@@ -151,7 +151,7 @@ a, table.table a {
       color: #800517;
       font-weight: bolder;
       &:hover {
-          color: #9a0200; //$theme-color;
+          color: #e70300; // #9a0200; //$theme-color;
       }
   }
   .contact-icon {
@@ -159,7 +159,7 @@ a, table.table a {
     a {
       color: $grey-color-dark;
       &:hover {
-          color: #9a0200; //$theme-color;
+          color: #e70300; // #9a0200; //$theme-color;
       }
     }
   }
@@ -217,7 +217,7 @@ a, table.table a {
     a {
       color:  #800517; // $grey-color-dark;
       &:hover {
-          color: #800517; // $theme-color;
+          color: #e70300; // #800517; // $theme-color;
       }
     }
   }
