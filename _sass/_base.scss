@@ -175,7 +175,8 @@ a, table.table a {
     a {
       color: $grey-color-dark;
       &:hover {
-          color: #e70300; // #9a0200; //$theme-color;
+          //color: #e70300; // #9a0200; //$theme-color;
+          color: $theme-color;
       }
     }
   }
