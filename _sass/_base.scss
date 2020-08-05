@@ -59,9 +59,8 @@ h5{
     font-weight: normal;
     font-family: luxi serif, georgia, times new roman, times, serif;
     background: none;
-    padding: 10 0 0;
-    padding-bottom: 0;
-    padding-top: 0;
+    padding-bottom: -10;
+    padding-top: 10;
 }
 
 author{
@@ -89,6 +88,18 @@ div.my_footer {
     margin-top: -2em;
     margin-bottom: 0;
 }
+
+a {
+  color: #C12869; /*#575757;*/
+}
+a:hover {
+    color: #e70300; //#800517;/*#ff0000;*/
+}
+p a:visited {
+  color: #d069ff;
+}
+
+
 ////
 //// end of editing of murtazo
 
