@@ -81,7 +81,7 @@ ol li {
 a, table.table a {
   color:  #800517; //$theme-color;
   &:hover {
-    color: $theme-color;
+      color: #4d0100; //$theme-color;
     text-decoration: underline;
   }
   &:hover:after {
