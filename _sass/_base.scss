@@ -165,13 +165,9 @@ a, table.table a {
   }
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
-      color: #800517;/*#400000;*/ 
-      font-weight: bolder;
-      font-family: luxi serif, georgia, times new roman, times, serif;
-      font-size: 110%;
-      //color: $theme-color;
+      color: $theme-color;
       //color: #800517;
-      //font-weight: bolder;
+      font-weight: bolder;
       &:hover {
           color: #e70300; // #9a0200; //$theme-color;
           //color: $theme-color;
