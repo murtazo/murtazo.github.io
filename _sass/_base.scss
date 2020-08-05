@@ -143,10 +143,6 @@ a, table.table a {
   box-shadow: none;
   //border-bottom: 1px solid $grey-color-light;
   opacity: 0.95;
-
-  color: #800517;/*#400000;*/ 
-  font-weight: normal;
-  font-family: luxi serif, georgia, times new roman, times, serif;
 }
 
 .navbar.navbar-light {
@@ -164,8 +160,8 @@ a, table.table a {
   }
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
-      //color: $theme-color;
-      color: #800517;
+      color: $theme-color;
+      //color: #800517;
       font-weight: bolder;
       &:hover {
           color: #e70300; // #9a0200; //$theme-color;
