@@ -20,15 +20,6 @@ journal{
     line-height: 1.1em;
 }
 
-a {
-  color: #575757;
-}
-a:hover {
-  color: #ff0000;
-}
-p a:visited {
-  color: #d069ff;
-}
 
 h1 { font-size: 190%; }
 h2 { font-size: 140%; }
@@ -221,7 +212,7 @@ a, table.table a {
     a {
       color: $grey-color-dark;
       &:hover {
-        color: $theme-color;
+          color: #800517; // $theme-color;
       }
     }
   }
