@@ -1,6 +1,6 @@
 ---
-layout: about
-title: About
+layout: home
+title: Home
 permalink: /
 description: <a href="http://www.it.uu.se/research/scicomp">Division of Scientific Computing</a>, <a href="http://www.it.uu.se">Department of Information Technology</a>, <a href="http://www.uu.se">Uppsala University</a>
 
