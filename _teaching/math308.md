@@ -1,6 +1,7 @@
 ---
 layout: page
 title: math308
+permalink: /teaching/math308
 description: another without an image
 img:
 ---
