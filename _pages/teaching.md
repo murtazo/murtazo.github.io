@@ -7,7 +7,16 @@ nav: true
 order: 4
 ---
 
-<table border="0" cellpadding="00" cellspacing="0" height="100%" width="100%">
+<h2>Currently</h2>
+
+<b>2019</b> &nbsp;
+<a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=34479&amp;type=1">1TD050, Advanced Numerical Methods </a>
+
+
+<b>2019</b> &nbsp;
+<a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=38984&amp;type=1">1TD397, Scientific Computing III </a> 		    
+
+	<table border="0" cellpadding="00" cellspacing="0" height="100%" width="100%">
   <tbody><tr style="vertical-align: top;">
       <td colspan="2" rowspan="1" style="vertical-align: top">
 	
