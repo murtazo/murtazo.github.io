@@ -7,7 +7,7 @@ nav: true
 order: 4
 ---
 
-<h2>Currently</h2>
+<h3>Currently</h3>
 
 <ul style="list-style-type:none; padding-left:0;">
   <li>
@@ -74,7 +74,7 @@ order: 4
 
 
 
-<h2>Courses taught in Texas A&amp;M Universtity, USA</h2>
+<h3>Courses taught in Texas A&amp;M Universtity, USA</h3>
 
 <ul style="list-style-type:none; padding-left:0;">
   <li>
@@ -111,7 +111,7 @@ order: 4
   </li>
 </ul>
 
-<h2>Courses taught at KTH, Sweden</h2>
+<h3>Courses taught at KTH, Sweden</h3>
 <ul style="list-style-type:none; padding-left:0;">
   <li>
     <b>2011</b> &nbsp; <a href="http://www.csc.kth.se/utbildning/kth/kurser/DN2260/fem11/">DN2260, Finite Element Methods</a> 
@@ -127,7 +127,7 @@ order: 4
   </li>
 </ul>
 
-<h2>Courses taught at KTH, Sweden, as an assistant</h2>
+<h3>Courses taught at KTH, Sweden, as an assistant</h3>
 
 <ul style="list-style-type:none; padding-left:0;">
   <li>
