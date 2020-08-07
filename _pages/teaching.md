@@ -15,10 +15,6 @@ order: 4
 <b>2019</b> &nbsp;
 <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=38984&amp;type=1">1TD397, Scientific Computing III </a> 		    
 
-	<table border="0" cellpadding="00" cellspacing="0" height="100%" width="100%">
-  <tbody><tr style="vertical-align: top;">
-      <td colspan="2" rowspan="1" style="vertical-align: top">
-	
 	<h2>Currently</h2>
 
         <div class="teaching">
@@ -116,7 +112,4 @@ order: 4
 	  <journal>(bachelor level, assistant).</journal>
 	</div>
 
-      </td>
-    </tr>
-</tbody></table>
 
