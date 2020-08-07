@@ -7,6 +7,10 @@ nav: true
 order: 4
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<h2>Teaching</h2>
+<h5>Currently</h5>
 
-Organize your courses by years, topics, or universities, however you like!
+<div class="teaching">
+  <b>2019</b> &nbsp; <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=34479&type=1">1TD050,
+    Advanced Numerical Methods </a>
+</div>    
