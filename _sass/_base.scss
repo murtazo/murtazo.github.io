@@ -23,13 +23,13 @@ journal{
 h1 { font-size: 190%; }
 h2 { font-size: 140%; }
 h3 { font-size: 130%; }
+h33 { font-size: 130%; }
 h4 { font-size: 110%; }
-h44 { font-size: 110%; }
 h5 { font-size: 110%; }
 h6 { font-size: 80%;  }
-h7 { font-size: 110%;  }
+h7 { font-size: 70%;  }
 
-h1, h2, h44, h3, h4, h5, h6 {
+h1, h2, h3, h33, h4, h5, h6 {
     color: #800517;/*#400000;*/ 
     font-weight: normal;
     font-family: luxi serif, georgia, times new roman, times, serif;
@@ -80,18 +80,11 @@ h2{
     padding-bottom: 10;
 }
 
-h44{
-    margin-left:-1.8em;
-    padding: 10 0 0;
-    padding-bottom: 0;
-    padding-top: 0;
-}
-
 h33{
     margin-left:-1.7em;
 }
 
-h4{
+h7{
     font-weight: normal;
     font-family: Courier, monospace;
     background: none;
