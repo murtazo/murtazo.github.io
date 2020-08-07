@@ -10,57 +10,67 @@ order: 4
 <h2>Currently</h2>
 
 <b>2019</b> &nbsp;
-<a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=34479&amp;type=1">1TD050, Advanced Numerical Methods </a>
+<a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=34479&amp;type=1">
+  1TD050,
+  Advanced Numerical Methods
+</a>
 <br>
 <b>2019</b> &nbsp;
-<a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=38984&amp;type=1">1TD397, Scientific Computing III </a> 		    
+<a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=38984&amp;type=1">
+  1TD397,
+  Scientific Computing III
+</a> 		    
+<br>
+<b>2018</b> &nbsp;
+<a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=34479&amp;type=1">
+  1TD050,
+  Advanced Numerical Methods
+</a>
+<br>
+<b>2018</b> &nbsp;
+<a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=38984&amp;type=1">
+  1TD397,
+  Scientific Computing III
+</a> 		    
+<br>
+<b>2017</b> &nbsp;
+<a href="http://www.it.uu.se/edu/course/homepage/fem/ht17/">
+  1TD056,
+  Applied Finite Element Methods
+</a> 		    
+<br>
+<b>2016</b> &nbsp;
+<a href="http://www.it.uu.se/edu/course/homepage/fem/ht16/">
+  1TD056,
+  Applied Finite Element Methods
+</a> 
+(<a href="../assets/teaching/evaluations/fem-16_evaluation.pdf"><i>students' evaluations</i>
+</a>)
+<br>
+<b>2015</b> &nbsp;
+<a href="http://www.it.uu.se/edu/course/homepage/fem/ht15/">
+  1TD253,
+  Finite Element Methods
+</a> 
+(<a href="evaluations/fem-15_evaluation.pdf"><i>students' evaluations</i></a>)
+<br>
+<b>2014</b> &nbsp;
+<a href="http://www.it.uu.se/edu/course/homepage/fem/ht14/">
+  1TD253,
+  Finite Element Methods
+</a> 
+(<a href="evaluations/fem-14_evaluation.pdf"><i>students' evaluations</i></a>)
+<br>
 
-	<h2>Currently</h2>
+<h2>Courses taught in Texas A&amp;M Universtity, USA</h2>
 
-        <div class="teaching">
-          <b>2019</b> &nbsp; <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=34479&amp;type=1">1TD050,
-	    Advanced Numerical Methods </a>
-        </div>
-
- 	<div class="teaching">
-	  <b>2019</b> &nbsp; <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=38984&amp;type=1">1TD397, Scientific Computing III </a> 		    
-	</div>
-
-        <div class="teaching">
-          <b>2018</b> &nbsp; <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=34479&amp;type=1">1TD050,
-	    Advanced Numerical Methods </a>
-        </div>
-
- 	<div class="teaching">
-	  <b>2018</b> &nbsp; <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=38984&amp;type=1">1TD397, Scientific Computing III </a> 		    
-	</div>
-
-	<div class="teaching">
-	  <b>2017</b> &nbsp; <a href="http://www.it.uu.se/edu/course/homepage/fem/ht17/">1TD056, Applied Finite Element Methods </a> 		    
-	</div>
-
-	<div class="teaching">
-	  <b>2016</b> &nbsp; <a href="http://www.it.uu.se/edu/course/homepage/fem/ht16/">1TD056, Applied Finite Element Methods </a> 
-	  (<a href="../assets/teaching/evaluations/fem-16_evaluation.pdf"><i>students' evaluations</i></a>)
-	</div>
-
-	<div class="teaching">
-	  <b>2015</b> &nbsp; <a href="http://www.it.uu.se/edu/course/homepage/fem/ht15/">1TD253, Finite Element Methods </a> 
-	  (<a href="evaluations/fem-15_evaluation.pdf"><i>students' evaluations</i></a>)
-	</div>
-
-	<div class="teaching">
-	  <b>2014</b> &nbsp; <a href="http://www.it.uu.se/edu/course/homepage/fem/ht14/">1TD253, Finite Element Methods </a> 
-	  (<a href="evaluations/fem-14_evaluation.pdf"><i>students' evaluations</i></a>)
-	</div>
-	<br>
-
-	<h2>Courses taught in Texas A&amp;M Universtity, USA</h2>
-
-	<div class="teaching">
-	  <b>2014</b> &nbsp; <a href="../../assets/teaching/math311">Math 311-200, Topics in Applied Mathematics I, (second session) Summer 2014 </a> 
-	  (<a href="../../assets/teaching/evaluations/math_311_200.pdf"><i>students' evaluations</i></a>)
-	</div>
+<b>2014</b> &nbsp;
+<a href="../../assets/teaching/math311">
+  Math 311-200,
+  Topics in Applied Mathematics I, (second session) Summer 2014
+</a> 
+(<a href="../../assets/teaching/evaluations/math_311_200.pdf"><i>students' evaluations</i></a>)
+<br>
 
 	<div class="teaching">
 	  <b>2014</b> &nbsp; <a href="../../assets/teaching/math308">Math 308-503, Differential Equations, Spring 2014 </a> 
