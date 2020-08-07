@@ -24,60 +24,55 @@ order: 4
       Scientific Computing III
     </a> 		    
   </li>
-  <li>New Zealand</li>
+  <li>
+    <b>2018</b> &nbsp;
+    <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=34479&amp;type=1">
+      1TD050,
+      Advanced Numerical Methods
+    </a>
+  </li>
+  <li>
+    <b>2018</b> &nbsp;
+    <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=38984&amp;type=1">
+      1TD397,
+      Scientific Computing III
+    </a> 		    
+  </li>
+  <li>
+    <b>2017</b> &nbsp;
+    <a href="http://www.it.uu.se/edu/course/homepage/fem/ht17/">
+      1TD056,
+      Applied Finite Element Methods
+    </a> 		    
+  </li>
+  <li>
+    <b>2016</b> &nbsp;
+    <a href="http://www.it.uu.se/edu/course/homepage/fem/ht16/">
+      1TD056,
+      Applied Finite Element Methods
+    </a> 
+    (<a href="../assets/teaching/evaluations/fem-16_evaluation.pdf"><i>students' evaluations</i>
+    </a>)
+  </li>
+  <li>
+    <b>2015</b> &nbsp;
+    <a href="http://www.it.uu.se/edu/course/homepage/fem/ht15/">
+      1TD253,
+      Finite Element Methods
+    </a> 
+    (<a href="evaluations/fem-15_evaluation.pdf"><i>students' evaluations</i></a>)
+  </li>
+  <li>
+    <b>2014</b> &nbsp;
+    <a href="http://www.it.uu.se/edu/course/homepage/fem/ht14/">
+      1TD253,
+      Finite Element Methods
+    </a> 
+    (<a href="evaluations/fem-14_evaluation.pdf"><i>students' evaluations</i></a>)
+  </li>
 </ul>
 
 
-<b>2019</b> &nbsp;
-<a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=34479&amp;type=1">
-  1TD050,
-  Advanced Numerical Methods
-</a>
-<b>2019</b> &nbsp;
-<a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=38984&amp;type=1">
-  1TD397,
-  Scientific Computing III
-</a> 		    
-<b>2018</b> &nbsp;
-<a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=34479&amp;type=1">
-  1TD050,
-  Advanced Numerical Methods
-</a>
-<br>
-<b>2018</b> &nbsp;
-<a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=38984&amp;type=1">
-  1TD397,
-  Scientific Computing III
-</a> 		    
-<br>
-<b>2017</b> &nbsp;
-<a href="http://www.it.uu.se/edu/course/homepage/fem/ht17/">
-  1TD056,
-  Applied Finite Element Methods
-</a> 		    
-<br>
-<b>2016</b> &nbsp;
-<a href="http://www.it.uu.se/edu/course/homepage/fem/ht16/">
-  1TD056,
-  Applied Finite Element Methods
-</a> 
-(<a href="../assets/teaching/evaluations/fem-16_evaluation.pdf"><i>students' evaluations</i>
-</a>)
-<br>
-<b>2015</b> &nbsp;
-<a href="http://www.it.uu.se/edu/course/homepage/fem/ht15/">
-  1TD253,
-  Finite Element Methods
-</a> 
-(<a href="evaluations/fem-15_evaluation.pdf"><i>students' evaluations</i></a>)
-<br>
-<b>2014</b> &nbsp;
-<a href="http://www.it.uu.se/edu/course/homepage/fem/ht14/">
-  1TD253,
-  Finite Element Methods
-</a> 
-(<a href="evaluations/fem-14_evaluation.pdf"><i>students' evaluations</i></a>)
-<br>
 
 <h2>Courses taught in Texas A&amp;M Universtity, USA</h2>
 
