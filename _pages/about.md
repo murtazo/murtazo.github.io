@@ -13,23 +13,11 @@ profile:
     <p>
     <br>
     <h7>
-      <ul style="list-style-type:none; padding-left:0;">
-	<li>
-	  ITC building 2
-	</li>
-	<li>
-	  floor 4 
-	</li>
-	<li>
-	  room 2421
-    	</li>
-	<li>
-	  Lägerhyddsvägen 2
-	</li>
-	<li>
-	  752 37, Uppsala, Sweden
-	</li>
-      </ul>
+    ITC building 2 <br>
+    floor 4 <br>
+    room 2421 <br>
+    Lägerhyddsvägen 2 <br>
+    752 37, Uppsala, Sweden
     </h7>
     <br>
       <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>&nbsp;
