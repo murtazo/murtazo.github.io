@@ -55,22 +55,22 @@ order: 4
 
 	<div class="teaching">
 	  <b>2014</b> &nbsp; <a href="../../assets/teaching/math311">Math 311-200, Topics in Applied Mathematics I, (second session) Summer 2014 </a> 
-	  (<a href="evaluations/math_311_200.pdf"><i>students' evaluations</i></a>)
+	  (<a href="../../assets/teaching/evaluations/math_311_200.pdf"><i>students' evaluations</i></a>)
 	</div>
 
 	<div class="teaching">
-	  <b>2014</b> &nbsp; <a href="/assets/teaching/math308">Math 308-503, Differential Equations, Spring 2014 </a> 
-	  (<a href="evaluations/201331-MATH308512_murtazo.pdf"><i>students' evaluations</i></a>)
+	  <b>2014</b> &nbsp; <a href="../../assets/teaching/math308">Math 308-503, Differential Equations, Spring 2014 </a> 
+	  (<a href="../../assets/teaching/evaluations/201331-MATH308512_murtazo.pdf"><i>students' evaluations</i></a>)
 	</div>
 
 	<div class="teaching">
-	  <b>2013</b> &nbsp; <a href="math308-512">Math 308-512, Differential Equations, Fall 2013 </a> 
-	  (<a href="evaluations/201331-MATH308512_murtazo.pdf"><i>students' evaluations</i></a>)
+	  <b>2013</b> &nbsp; <a href="../../assets/teaching/math308-512">Math 308-512, Differential Equations, Fall 2013 </a> 
+	  (<a href="../../assets/teaching/evaluations/201331-MATH308512_murtazo.pdf"><i>students' evaluations</i></a>)
 	</div>
 
 	<div class="teaching">
-	  <b>2013</b> &nbsp; <a href="math417">Math 417-500, Numerical Analysis, Spring 2013 </a> 
-	  (<a href="evaluations/201311-MATH417500_murtazo.pdf"><i>students' evaluations</i></a>)
+	  <b>2013</b> &nbsp; <a href="../../assets/teaching/math417">Math 417-500, Numerical Analysis, Spring 2013 </a> 
+	  (<a href="../../assets/teaching/evaluations/201311-MATH417500_murtazo.pdf"><i>students' evaluations</i></a>)
 	</div>
 	<br>
 
