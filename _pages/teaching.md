@@ -9,7 +9,7 @@ order: 4
 
 <h2>Currently</h2>
 
-<ul style="list-style-type:none">
+<ul style="list-style-type:none; margin-left:0;">
          <li>US</li>
          <li>Australia</li>
          <li>New Zealand</li>
