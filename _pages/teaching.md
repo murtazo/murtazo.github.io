@@ -10,10 +10,22 @@ order: 4
 <h2>Currently</h2>
 
 <ul style="list-style-type:none; padding-left:0;">
-         <li>US</li>
-         <li>Australia</li>
-         <li>New Zealand</li>
-      </ul>
+  <li>
+    <b>2019</b> &nbsp;
+    <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=34479&amp;type=1">
+      1TD050,
+      Advanced Numerical Methods
+    </a>
+  </li>
+  <li>
+    <b>2019</b> &nbsp;
+    <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=38984&amp;type=1">
+      1TD397,
+      Scientific Computing III
+    </a> 		    
+  </li>
+  <li>New Zealand</li>
+</ul>
 
 
 <b>2019</b> &nbsp;
