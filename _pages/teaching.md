@@ -54,7 +54,7 @@ order: 4
 	<h2>Courses taught in Texas A&amp;M Universtity, USA</h2>
 
 	<div class="teaching">
-	  <b>2014</b> &nbsp; <a href="/assets/teaching/math311">Math 311-200, Topics in Applied Mathematics I, (second session) Summer 2014 </a> 
+	  <b>2014</b> &nbsp; <a href="../../assets/teaching/math311">Math 311-200, Topics in Applied Mathematics I, (second session) Summer 2014 </a> 
 	  (<a href="evaluations/math_311_200.pdf"><i>students' evaluations</i></a>)
 	</div>
 
