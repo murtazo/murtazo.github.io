@@ -11,15 +11,13 @@ profile:
   image: 1.jpg
   address: 
     <p>
-    <br>
-    <h7>
     ITC building 2 <br>
     floor 4 <br>
     room 2421 <br>
     Lägerhyddsvägen 2 <br>
     752 37, Uppsala, Sweden
-    </h7>
-    <br>
+    </p>
+    <p>
       <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>&nbsp;
       <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>&nbsp;
       <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>&nbsp;
