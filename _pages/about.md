@@ -17,8 +17,12 @@ profile:
     floor 4
     </p>
     <p>
-    room 2421 <br>
-    Lägerhyddsvägen 2 <br>
+    room 2421
+    </p>
+    <p>
+    Lägerhyddsvägen 2
+    </p>
+    <p>
     752 37, Uppsala, Sweden
     </p>
     <p>
