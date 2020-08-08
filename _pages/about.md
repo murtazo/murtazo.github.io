@@ -11,8 +11,12 @@ profile:
   image: 1.jpg
   address: 
     <p>
-    ITC building 2 <br>
-    floor 4 <br>
+    ITC building 2
+    </p>
+    <p>
+    floor 4
+    </p>
+    <p>
     room 2421 <br>
     Lägerhyddsvägen 2 <br>
     752 37, Uppsala, Sweden
