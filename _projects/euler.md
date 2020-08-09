@@ -2,7 +2,7 @@
 layout: page
 title: Nonlinear viscosity for Euler equation
 description: a project with a background image a project with a background imag a project with a background image a project with a background image a project with a background image a project with a background image a project with a background image a project with a background image a project with a background image
-img: /assets/arts/explotion/expl.png
+img: /assets/arts/explosion/expl.png
 importance: 1
 ---
 
