@@ -10,22 +10,6 @@ profile:
   align: left
   image: 1.jpg
   address: 
-    <p>
-    ITC building 2
-    </p>
-    <p>
-    floor 4
-    </p>
-    <p>
-    room 2421
-    </p>
-    <p>
-    Lägerhyddsvägen 2
-    </p>
-    <p>
-    752 37, Uppsala, Sweden
-    </p>
-    <p>
       <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>&nbsp;
       <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>&nbsp;
       <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>&nbsp;
@@ -62,4 +46,31 @@ Texas A&M University, USA. <br>
   Parabolic regularizations, maximum principle preserving schemes, entropy viscosity.
 </li>
 
+<b>Visiting address:</b> 
+<li>
+  Room POL 2421 ITC, Lägerhyddsvägen 2, hus 2 <br>
+  752 37 UPPSALA
+</li>
 
+<b>Postal address:</b>
+<li>
+  Box 337 <br>
+  751 05 UPPSALA
+</li>
+
+    <p>
+    ITC building 2
+    </p>
+    <p>
+    floor 4
+    </p>
+    <p>
+    room 2421
+    </p>
+    <p>
+    Lägerhyddsvägen 2
+    </p>
+    <p>
+    752 37, Uppsala, Sweden
+    </p>
+    <p>
