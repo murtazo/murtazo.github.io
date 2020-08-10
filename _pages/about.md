@@ -52,7 +52,7 @@ Texas A&M University, USA. <br>
   752 37 UPPSALA
 </li>
 
-<h3>Postal address:</h3>
+<h4>Postal address:</h4>
 <li>
   Box 337 <br>
   751 05 UPPSALA
