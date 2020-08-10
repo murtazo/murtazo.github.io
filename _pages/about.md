@@ -22,11 +22,11 @@ news: false
 social: false
 ---
 
-<div style="height: 100px; width: 500px;">
-  <span class="contacticon center">
+
+  <span class="contacticon center" style="height: 100px; width: 500px;">
     <a href="mailto:%6D%61%72%75%61%6E@%61%6C%73%68%65%64%69%76%61%74.%63%6F%6D" title="Send me an email!"><i class="fas fa-envelope"></i></a>
  </span>
-</div>
+
 
 I am an Associate Professor in the 
 <a href="http://www.it.uu.se/research/scicomp">Division of Scientific Computing</a> 
