@@ -10,9 +10,6 @@ profile:
   align: left
   image: pic2.jpg
   address:
-  <span class="contacticon center">
-    <a href="mailto:%6D%61%72%75%61%6E@%61%6C%73%68%65%64%69%76%61%74.%63%6F%6D" title="Send me an email!"><i class="fas fa-envelope"></i></a>
- </span>
       <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>&nbsp;
       <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>&nbsp;
       <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>&nbsp;
