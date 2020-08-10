@@ -12,13 +12,7 @@ profile:
   address:
   <span class="contacticon center">
     <a href="mailto:%6D%61%72%75%61%6E@%61%6C%73%68%65%64%69%76%61%74.%63%6F%6D" title="Send me an email!"><i class="fas fa-envelope"></i></a>
-    <a href="https://scholar.google.com/citations?user=iUe4TdgAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-    <a href="https://github.com/alshedivat" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/alshedivat" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-    <a href="https://twitter.com/alshedivat" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
-    <a href="https://www.strava.com/athletes/16772628" target="_blank" title="Strava"><i class="fab fa-strava"></i></a>
-  </span>
-  <br>
+ </span>
       <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>&nbsp;
       <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>&nbsp;
       <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>&nbsp;
