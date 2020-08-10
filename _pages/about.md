@@ -8,7 +8,7 @@ description: <a href="http://www.it.uu.se/research/scicomp">Division of Scientif
 
 profile:
   align: left
-  image: 1.jpg
+  image: pic2.jpg
   address: 
       <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>&nbsp;
       <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>&nbsp;
@@ -46,31 +46,14 @@ Texas A&M University, USA. <br>
   Parabolic regularizations, maximum principle preserving schemes, entropy viscosity.
 </li>
 
-<b>Visiting address:</b> 
+<h3>Visiting address:</h3> 
 <li>
   Room POL 2421 ITC, Lägerhyddsvägen 2, hus 2 <br>
   752 37 UPPSALA
 </li>
 
-<b>Postal address:</b>
+<h3>Postal address:</h3>
 <li>
   Box 337 <br>
   751 05 UPPSALA
 </li>
-
-    <p>
-    ITC building 2
-    </p>
-    <p>
-    floor 4
-    </p>
-    <p>
-    room 2421
-    </p>
-    <p>
-    Lägerhyddsvägen 2
-    </p>
-    <p>
-    752 37, Uppsala, Sweden
-    </p>
-    <p>
