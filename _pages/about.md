@@ -18,6 +18,19 @@ profile:
       <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin  fa-2x"></i></a>
       <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter  fa-2x"></i></a>
    </p>
+
+news: false
+social: false
+---
+
+  <p>
+      <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope fa-2x"></i></a>
+      <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" title="ORCID"><i class="ai ai-orcid fa-2x"></i></a>
+      <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar fa-2x"></i></a>
+      <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" target="_blank" title="ResearchGate"><i class="ai ai-researchgate  fa-2x"></i></a>
+      <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin  fa-2x"></i></a>
+      <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter  fa-2x"></i></a>
+   </p>
   <p>
       <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope fa-lg"></i></a>
       <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" title="ORCID"><i class="ai ai-orcid fa-lg"></i></a>
@@ -26,16 +39,6 @@ profile:
       <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin  fa-lg"></i></a>
       <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter  fa-lg"></i></a>
    </p>
-
-news: false
-social: false
----
-
-
-  <span class="contacticon center" style="height: 100px; width: 500px;">
-    <a href="mailto:%6D%61%72%75%61%6E@%61%6C%73%68%65%64%69%76%61%74.%63%6F%6D" title="Send me an email!"><i class="fas fa-envelope"></i></a>
- </span>
-
 
 I am an Associate Professor in the 
 <a href="http://www.it.uu.se/research/scicomp">Division of Scientific Computing</a> 
