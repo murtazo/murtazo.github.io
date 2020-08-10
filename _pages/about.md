@@ -10,14 +10,14 @@ profile:
   align: left
   image: pic2.jpg
   address:
-  <p>
+      <p>
       <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope fa-2x"></i></a>
       <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" title="ORCID"><i class="ai ai-orcid fa-2x"></i></a>
       <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar fa-2x"></i></a>
       <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" target="_blank" title="ResearchGate"><i class="ai ai-researchgate  fa-2x"></i></a>
       <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin  fa-2x"></i></a>
       <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter  fa-2x"></i></a>
-   </p>
+      </p>
 
 news: false
 social: false
