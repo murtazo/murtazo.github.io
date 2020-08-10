@@ -27,10 +27,9 @@ I am an Associate Professor in the
 of the <a href="http://www.it.uu.se">Department of Information Technology</a>
 at <a href="http://www.uu.se">Uppsala University</a>. 
 Prior coming to Uppsala, I was a Visiting Assistant Professor of Mathematics at 
-Texas A&M University, USA. <br>
-<br>
+Texas A&M University, USA.
 
-<b>Research Interests:</b> 
+<h4>Research Interests:</h4> 
 <li> 
   Numerical analysis of partial differential equations in particular
   compressible and incompressible Navier-Stokes and Euler equations.
@@ -46,7 +45,7 @@ Texas A&M University, USA. <br>
   Parabolic regularizations, maximum principle preserving schemes, entropy viscosity.
 </li>
 
-<h3>Visiting address:</h3> 
+<h4>Visiting address:</h4> 
 <li>
   Room POL 2421 ITC, Lägerhyddsvägen 2, hus 2 <br>
   752 37 UPPSALA
