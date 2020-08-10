@@ -179,12 +179,14 @@ a, table.table a {
 	    margin-top: 0.75rem;
       font-size: 1rem;
       p {
-          margin: 1rem;
-	        list-style: height 1.1em;
+          margin-top: 1rem;
       }
     }
 }
 
+.fa-lg {
+  line-height: 1.7rem;
+}
 
 // Navbar customization
 
