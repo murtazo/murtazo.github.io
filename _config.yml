@@ -109,6 +109,8 @@ kramdown:
 include: ['_pages']
 exclude: [vendor]
 
+mathjax: true
+
 # math_engine: null
 
 # Plug-ins
