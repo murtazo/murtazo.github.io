@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 permalink: /arts/
 title: Arts
 description: xxx
