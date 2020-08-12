@@ -113,8 +113,8 @@ exclude: [vendor]
 plugins:
   - jekyll-email-protect
   - jekyll-paginate-v2
-  - jekyll/scholar
   - jemoji
+  # - jekyll/scholar
   # - bootstrap
   # - material-sass
 
