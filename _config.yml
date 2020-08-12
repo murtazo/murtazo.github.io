@@ -109,7 +109,7 @@ kramdown:
 include: ['_pages']
 exclude: [vendor]
 
-math_engine: null
+# math_engine: null
 
 # Plug-ins
 plugins:
