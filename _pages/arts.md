@@ -7,6 +7,12 @@ nav: true
 order: 5
 ---
 
-sdsdsd
-sdsds
-d
+Test equation:
+$$
+\int_\Omega f(x) dx
+$$
+
+
+$$
+u' = \int_\Omega f(x) dx
+$$
