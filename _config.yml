@@ -109,6 +109,8 @@ kramdown:
 include: ['_pages']
 exclude: [vendor]
 
+math_engine: null
+
 # Plug-ins
 plugins:
   - jekyll-email-protect
@@ -122,35 +124,28 @@ plugins:
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
-scholar:
-
-  last_name: Einstein
-
-  style: apa
-  locale: en
-
-  sort_by: year
-  order: descending
-
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-
-  replace_strings: true
-  join_strings: true
-
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
-
-  query: "@*"
+#scholar:
+#  last_name: Einstein
+#  style: apa
+#  locale: en
+#  sort_by: year
+#  order: descending
+#  source: /_bibliography/
+#  bibliography: papers.bib
+#  bibliography_template: bib
+#  replace_strings: true
+#  join_strings: true
+#  details_dir: bibliography
+#  details_layout: bibtex.html
+#  details_link: Details
+#  query: "@*"
 
 # -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:  false
-enable_katex:             false
+enable_katex:             true
 enable_mansory:           true
 enable_progressbar:       true
 enable_tooltips:          false
