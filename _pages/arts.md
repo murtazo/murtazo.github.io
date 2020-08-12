@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: distill
 permalink: /arts/
 title: Arts
 description: xxx
