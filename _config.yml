@@ -150,7 +150,7 @@ scholar:
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:  false
-enable_katex:             true
+enable_katex:             false
 enable_mansory:           true
 enable_progressbar:       true
 enable_tooltips:          false
