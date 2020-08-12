@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: /arts/
 title: Arts
 description: xxx
