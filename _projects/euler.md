@@ -22,3 +22,7 @@ importance: 1
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 
+Test equation:
+$$
+\int_\Omega f(x) dx
+$$
