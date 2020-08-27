@@ -72,7 +72,7 @@ shock ways and contact line and so on.
 </div>
 <center>
 <div class="col-sm mt-3 mt-md-0">
-    <iframe width="370" height="315" src="https://www.youtube.com/embed/Pmc5usZVyfY" frameborder="0" allowfullscreen></iframe>
+    <iframe width="360" height="315" src="https://www.youtube.com/embed/Pmc5usZVyfY" frameborder="0" allowfullscreen></iframe>
 </div>
 </center>
 <div class="caption">
@@ -110,7 +110,7 @@ degrees $\mathbb P2$$ are used.
 2D computation of the Euler equations using Entropy Viscosity. 3rd order strong stability preserving Runge Kutta method used for the time discretization. ~1.3 million degrees of freedom, unstructured mesh, FEM solution with quadratic elements.	
 </div>
 <center>
-	<iframe width="370" height="315" src="https://www.youtube.com/embed/BlFsRtSEnK4" frameborder="0" allowfullscreen></iframe>
+	<iframe width="360" height="315" src="https://www.youtube.com/embed/BlFsRtSEnK4" frameborder="0" allowfullscreen></iframe>
 </center>
 <div class="caption">
 Animation of the Mach 10 problem.
@@ -152,7 +152,7 @@ Solution of the explosion problem in 640K unstructured mesh points, FEM solution
 </div>
 
 <center>
-<iframe width="370" height="315"  src="https://www.youtube.com/embed/n_KYucSSInY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="360" height="315"  src="https://www.youtube.com/embed/n_KYucSSInY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <div class="caption">
 	Animation of the explosion problem. 
@@ -179,7 +179,7 @@ Color bar of density. For more information see the Computational Technology Labo
 	Solution of the implosion problem in 640K unstructured mesh points, FEM solution with linear elements.
 </div>
 <center>
-	<iframe width="370" height="315" src="https://www.youtube.com/embed/CnwEnhA9Cic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="360" height="315" src="https://www.youtube.com/embed/CnwEnhA9Cic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <div class="caption">
 	Animation of the explosion problem. 
