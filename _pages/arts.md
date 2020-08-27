@@ -3,7 +3,7 @@ layout: page
 permalink: /arts/
 title: Arts
 description: xxx
-nav: true
+nav: false
 order: 5
 ---
 

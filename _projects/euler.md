@@ -130,7 +130,7 @@ Then method can also be applied to low Mach number subsonic cases. Here is the e
 <h5>2D Riemann problem</h5>
 2D Riemann problem with low density and pressure inside a circle: 
 <div>
-$$\frac{\rho_{inside}}{\rho_{outside}} = \frac{1}{0.125},$$ and $$\frac{P_{inside}}{P_{outside}} = \frac{1}{0.1}.$$ 
+$$\frac{\rho_{inside}}{\rho_{outside}} = \frac{1}{0.125}, \quad \frac{P_{inside}}{P_{outside}} = \frac{1}{0.1}.$$ 
 </div>
 Color bar of density. For more information see the Computational Technology Laboratory. 640K unstructured mesh points, FEM solution with $$\mathbb P1$$ elements.
 
@@ -158,7 +158,7 @@ Solution of the explosion problem in 640K unstructured mesh points, FEM solution
 
 Now consider the following implosion problem. The density and pressure are lower inside the rhombus:
 <div>
-$$\frac{\rho_{inside}}{\rho_{outside}} = \frac{0.125}{1},$$ and $$\frac{P_{inside}}{P_{outside}} = \frac{0.14}{1}.$$ 
+$$\frac{\rho_{inside}}{\rho_{outside}} = \frac{0.125}{1}, \quad \frac{P_{inside}}{P_{outside}} = \frac{0.14}{1}.$$ 
 </div>
 Color bar of density. For more information see the Computational Technology Laboratory. 640K unstructured mesh points, FEM solution with $$\mathbb P1$$ elements.
 
@@ -177,7 +177,7 @@ Color bar of density. For more information see the Computational Technology Labo
 	Solution of the implosion problem in 640K unstructured mesh points, FEM solution with linear elements.
 </div>
 <center>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/CnwEnhA9Cic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="420" height="315" src="https://www.youtube.com/embed/CnwEnhA9Cic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <div class="caption">
 	Animation of the explosion problem. 

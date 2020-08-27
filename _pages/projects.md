@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: 
 nav: true
-order: 3
+order: 4
 ---
 
 <div class="projects grid">

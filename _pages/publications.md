@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description: 
 nav: true
-order: 2
+order: 3
 ---
 
 {%include papers.html %} 
