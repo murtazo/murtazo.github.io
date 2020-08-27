@@ -118,6 +118,7 @@ plugins:
   - jekyll-email-protect
   - jekyll-paginate-v2
   - jemoji
+  - bootstrap
   # - jekyll/scholar
   # - bootstrap
   # - material-sass
