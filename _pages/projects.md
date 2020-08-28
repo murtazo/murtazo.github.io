@@ -11,15 +11,16 @@ order: 4
 
   {% assign sorted_projects = site.projects | sort: "importance" %}
   {% for project in sorted_projects %}
-  <div class="grid-item">
+  <div class="grid-item ">
     {% if project.redirect %}
     <a href="{{ project.redirect }}" target="_blank">
     {% else %}
     <a href="{{ project.url | relative_url }}">
     {% endif %}
       <div class="card hoverable">
-        {% if project.img %}
-        <img src="{{ project.img | relative_url }}" alt="project thumbnail">
+        {% if project.img %} 
+        <!-- <img src="{{ project.img | relative_url }}" alt="project thumbnail"> -->
+        <img src="{{ project.img | relative_url }}" width="80%"  alt="project thumbnail">
         {% endif %}
         <div class="card-body">
           <!-- <h2 class="card-title text-lowercase">{{ project.title }}</h2> -->
