@@ -7,6 +7,18 @@ img: /assets/arts/expl/expl3.jpg
 importance: 1
 ---
 
+<div class="row justify-content-center">
+		<iframe 
+			width="650" height="315"
+     		src="https://www.youtube.com/embed/Pmc5usZVyfY"
+     		frameborder="0" 
+     		allowfullscreen>
+		</iframe>
+</div>
+<div class="caption">
+    Animation of the explosion problem.
+</div>
+
 To make all the features of the solution visible we often plot Schlieren gray-scale diagram of the vertical momentum $$m_2$$ given by
 <div>
 \[
@@ -70,20 +82,27 @@ shock ways and contact line and so on.
 <div class="caption">
     Explosion in a closed circle with cylinders. 1.5 millions quadratic polynomial nodes are used.
 </div>
-<center>
 <!-- <div class="col-sm mt-3 mt-md-0">
     <iframe width="360" height="315" src="https://www.youtube.com/embed/Pmc5usZVyfY" frameborder="0" allowfullscreen></iframe>
 </div> -->
-<div class="embed-container">
-<center>
+<div class="embed-container  justify-content-center">
     <iframe
         src="https://www.youtube.com/embed/Pmc5usZVyfY"
         frameborder="0"
         allowfullscreen="">
     </iframe>
-</center>
   </div>
-</center>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm">
+		<iframe 
+     		src="https://www.youtube.com/embed/Pmc5usZVyfY"
+     		frameborder="0" 
+     		allowfullscreen>
+		</iframe>
+	</div>
+</div>
+
 <div class="caption">
     Animation of the explosion problem.
 </div>
