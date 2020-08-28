@@ -19,8 +19,7 @@ order: 4
     {% endif %}
       <div class="card hoverable">
         {% if project.img %} 
-        <!-- <img src="{{ project.img | relative_url }}" alt="project thumbnail"> -->
-        <img src="{{ project.img | relative_url }}" width="80%"  alt="project thumbnail">
+        <img src="{{ project.img | relative_url }}" alt="project thumbnail">
         {% endif %}
         <div class="card-body">
           <!-- <h2 class="card-title text-lowercase">{{ project.title }}</h2> -->

@@ -8,11 +8,11 @@ importance: 1
 ---
 
 To make all the features of the solution visible we often plot Schlieren gray-scale diagram of the vertical momentum $$m_2$$ given by
-<div>
-\[
+
+$$
 \sigma = \exp\left	(-\beta \frac{|\nabla m_2|}{\max_{\Omega}(|\nabla m_2|)} \right),
-\]
-</div>
+$$
+
 where $$\beta=10$$.
 
 <h5>Explosion in a closed circle with cylinders</h5> 
@@ -135,9 +135,11 @@ Then method can also be applied to low Mach number subsonic cases. Here is the e
 
 <h5>2D Riemann problem</h5>
 2D Riemann problem with low density and pressure inside a circle: 
-<div>
-$$\frac{\rho_{inside}}{\rho_{outside}} = \frac{1}{0.125}, \quad \frac{P_{inside}}{P_{outside}} = \frac{1}{0.1}.$$ 
-</div>
+
+$$
+\frac{\rho_{inside}}{\rho_{outside}} = \frac{1}{0.125}, \quad \frac{P_{inside}}{P_{outside}} = \frac{1}{0.1}.
+$$ 
+
 Color bar of density. For more information see the Computational Technology Laboratory. 640K unstructured mesh points, FEM solution with $$\mathbb P1$$ elements.
 
 <div class="row">
@@ -163,9 +165,11 @@ Solution of the explosion problem in 640K unstructured mesh points, FEM solution
 </div>
 
 Now consider the following implosion problem. The density and pressure are lower inside the rhombus:
-<div>
-$$\frac{\rho_{inside}}{\rho_{outside}} = \frac{0.125}{1}, \quad \frac{P_{inside}}{P_{outside}} = \frac{0.14}{1}.$$ 
-</div>
+
+$$
+\frac{\rho_{inside}}{\rho_{outside}} = \frac{0.125}{1}, \quad \frac{P_{inside}}{P_{outside}} = \frac{0.14}{1}.
+$$ 
+
 Color bar of density. For more information see the Computational Technology Laboratory. 640K unstructured mesh points, FEM solution with $$\mathbb P1$$ elements.
 
 <div class="row">
@@ -180,7 +184,7 @@ Color bar of density. For more information see the Computational Technology Labo
     </div>
 </div>
 <div class="caption">
-	Solution of the implosion problem in 640K unstructured mesh points, FEM solution with linear elements.
+	Solution of the implosion problem in <span>$$640K$$</span> unstructured mesh points, FEM solution with linear elements. 
 </div>
 <div class="row justify-content-center">
 	<iframe width="460" height="315" src="https://www.youtube.com/embed/CnwEnhA9Cic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
