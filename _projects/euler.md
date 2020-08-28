@@ -71,9 +71,18 @@ shock ways and contact line and so on.
     Explosion in a closed circle with cylinders. 1.5 millions quadratic polynomial nodes are used.
 </div>
 <center>
-<div class="col-sm mt-3 mt-md-0">
+<!-- <div class="col-sm mt-3 mt-md-0">
     <iframe width="360" height="315" src="https://www.youtube.com/embed/Pmc5usZVyfY" frameborder="0" allowfullscreen></iframe>
-</div>
+</div> -->
+<div class="embed-container">
+<center>
+    <iframe
+        src="https://www.youtube.com/embed/Pmc5usZVyfY"
+        frameborder="0"
+        allowfullscreen="">
+    </iframe>
+</center>
+  </div>
 </center>
 <div class="caption">
     Animation of the explosion problem.
