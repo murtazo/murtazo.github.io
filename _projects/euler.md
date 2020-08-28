@@ -1,16 +1,18 @@
 ---
 layout: page
-title: Nonlinear viscosity for Euler equation
+title: Nonlinear stabilization for Euler equations
 description: This project is about viscous regularizations of the compressible Euler equations. The finite element discretization is stabilized using artificial viscosity operators. 
 # img: /assets/arts/explosion/expl.png
 img: /assets/arts/expl/expl3.jpg
 importance: 1
 ---
 
-To make all the features of the solution visible we often plot Schlieren gray-scale diagram of the vertical momentum $$m_2$$ given by
+Here we present some of recent numerical results. The results are obtained using nonlinear stabilization method, where the viscosity coefficient is constructed propotional to entropy and PDE residual. 
+
+To make all the features of the solution visible we often plot Schlieren gray-scale diagram of the density $$\rho$$ given by
 
 $$
-\sigma = \exp\left	(-\beta \frac{|\nabla m_2|}{\max_{\Omega}(|\nabla m_2|)} \right),
+\sigma = \exp\left	(-\beta \frac{|\nabla \rho|}{\max_{\Omega}(|\nabla \rho|)} \right),
 $$
 
 where $$\beta=10$$.
