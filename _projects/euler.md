@@ -184,7 +184,7 @@ Color bar of density. For more information see the Computational Technology Labo
     </div>
 </div>
 <div class="caption">
-	Solution of the implosion problem in <span>$$640K$$</span> unstructured mesh points, FEM solution with linear elements. 
+	Solution of the implosion problem in <script type="math/tex">640K</script> unstructured mesh points, FEM solution with linear elements. 
 </div>
 <div class="row justify-content-center">
 	<iframe width="460" height="315" src="https://www.youtube.com/embed/CnwEnhA9Cic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
