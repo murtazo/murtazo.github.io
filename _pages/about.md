@@ -18,6 +18,10 @@ profile:
       <a href="https://www.linkedin.com/in/murtazo-nazarov-25587162" target="_blank" title="LinkedIn"><i class="fab fa-linkedin  fa-lg"></i></a>
       <a href="https://twitter.com/murtazonazarov" target="_blank" title="Twitter"><i class="fab fa-twitter  fa-lg"></i></a>
     </p>
+    <div class="clustr" style="width : 1%">
+      mn
+      <script width="10px" type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?u=vlNJ&d=vZYv6hB137CMNBn7eRZ46SsFR-JrZPHO0auUNlvzPrY"></script>
+    </div>
 
 news: false
 social: false
