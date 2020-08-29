@@ -53,9 +53,6 @@ h4{
 }
 
 h3{
-    padding: 10 0 0;
-    padding-bottom: 5;
-    padding-top: 10;
 }
 
 h2{
@@ -63,13 +60,9 @@ h2{
     padding-bottom: 10;
 }
 
-h3{
-    padding: 10 0 0;
-    padding-bottom: 10;
-}
-
 h33{
-    margin-left:-1.7em;
+  // padding-top: 0.75em;
+  margin-left:-1.7em;
 }
 
 h7{
@@ -146,6 +139,10 @@ div.clustr
     opacity: 0%;
     width: 5px;
     height: 5px;
+}
+
+b { 
+  font-weight: bold;
 }
 
 ////

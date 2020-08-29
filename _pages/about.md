@@ -12,6 +12,7 @@ profile:
   address: >
     <p>
       <a href="mailto:murtazo.nazarov@it.uu.se"><i class="fas fa-envelope fa-lg"></i></a>
+      <a href="https://orcid.org/0000-0003-4962-9048" target="_blank" title="Scopus"><i class="ai ai-scopus fa-lg"></i></a>
       <a href="https://orcid.org/0000-0003-4962-9048" target="_blank" title="ORCID"><i class="ai ai-orcid fa-lg"></i></a>
       <a href="https://scholar.google.com/citations?user=n16CWycAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar fa-lg"></i></a>
       <a href="https://www.researchgate.net/profile/Murtazo_Nazarov" target="_blank" title="ResearchGate"><i class="ai ai-researchgate  fa-lg"></i></a>
@@ -54,6 +55,6 @@ Texas A&M University, USA.
   Box 337 <br>
   751 05 UPPSALA
 
-<div class="clustr">
+<!-- <div class="clustr">
       <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?u=vlNJ&d=vZYv6hB137CMNBn7eRZ46SsFR-JrZPHO0auUNlvzPrY"></script>
-</div>
+</div> -->
