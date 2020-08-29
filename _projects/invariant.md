@@ -14,7 +14,7 @@ To make all the features of the solution visible we often plot Schlieren gray-sc
 </div>
 where $$\beta=10$$.
 
-<h5>Supersonic flow around circular cylinde</h5> 
+<h5>Supersonic flow around circular cylinder</h5> 
 
 In this example we consider a
   supersonic flow past a circular cylinder of radius $$0.25$$ centered

@@ -11,7 +11,7 @@ profile:
   image: pic2.jpg
   address: >
     <p>
-      <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope fa-lg"></i></a>
+      <a href="mailto:murtazo.nazarov@it.uu.se"><i class="fas fa-envelope fa-lg"></i></a>
       <a href="https://orcid.org/0000-0003-4962-9048" target="_blank" title="ORCID"><i class="ai ai-orcid fa-lg"></i></a>
       <a href="https://scholar.google.com/citations?user=user=n16CWycAAAAJ&hl" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar fa-lg"></i></a>
       <a href="https://www.researchgate.net/profile/Murtazo_Nazarov" target="_blank" title="ResearchGate"><i class="ai ai-researchgate  fa-lg"></i></a>
