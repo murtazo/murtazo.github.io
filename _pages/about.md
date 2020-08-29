@@ -22,9 +22,6 @@ profile:
 news: false
 social: false
 ---
-<!-- <div class="clustr">
-      <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?u=vlNJ&d=vZYv6hB137CMNBn7eRZ46SsFR-JrZPHO0auUNlvzPrY"></script>
-</div> -->
 
 I am an Associate Professor in the 
 <a href="http://www.it.uu.se/research/scicomp">Division of Scientific Computing</a> 
@@ -56,3 +53,7 @@ Texas A&M University, USA.
 <h4>Postal address:</h4>
   Box 337 <br>
   751 05 UPPSALA
+
+<div class="clustr">
+      <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?u=vlNJ&d=vZYv6hB137CMNBn7eRZ46SsFR-JrZPHO0auUNlvzPrY"></script>
+</div>
