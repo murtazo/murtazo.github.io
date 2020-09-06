@@ -12,6 +12,15 @@ order: 2
 <ul style="list-style-type:none; padding-left:0;">
   <li>
     <b>2020</b> &nbsp;
+    <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=38984&amp;type=1">
+      1TD397,
+      Scientific Computing III, 
+      (fall term)
+    </a> 		    
+  </li>
+
+  <li>
+    <b>2020</b> &nbsp;
     <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=34479&amp;type=1">
       1TD050,
       Advanced Numerical Methods
@@ -22,9 +31,11 @@ order: 2
     <b>2020</b> &nbsp;
     <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=38984&amp;type=1">
       1TD397,
-      Scientific Computing III
+      Scientific Computing III,  
+      (spring term)
     </a> 		    
   </li>
+
   <li>
     <b>2019</b> &nbsp;
     <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=34479&amp;type=1">
