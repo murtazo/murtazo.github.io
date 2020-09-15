@@ -26,7 +26,7 @@ order: 4
 	    <!-- <h2 class="card-title">{{ project.title }}</h2> -->
 	    <!-- <p class="card-text">{{ project.description }}</p> -->
 	    <div class="row">
-	      <div class="profile col-3">
+	      <div class="col-sm mt-3 mt-md-0">
 		<img src="{{ project.img | relative_url }}" alt="project thumbnail">
 	      </div>
 	      <div class="col">
