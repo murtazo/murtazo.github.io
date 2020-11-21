@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /teaching/
+permalink: teaching/
 title: Teaching
 description:
 nav: true
