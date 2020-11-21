@@ -6,7 +6,7 @@ title: Murtazo Nazarov
 email: murtazo.nazarov@it.uu.se
 description: > 
 footer_text: >
-url:  # the base hostname & protocol for your site
+url:  http://user.it.uu.se/~nazar000 # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 
