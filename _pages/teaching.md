@@ -11,6 +11,15 @@ order: 2
 
 <ul style="list-style-type:none; padding-left:0;">
   <li>
+    <b>2021</b> &nbsp;
+    <a href="https://www.uu.se/en/admissions/freestanding-courses/course/?kKod=1TD395&typ=1">
+      1TD397,
+      Scientific Computing II, 
+      (spring term)
+    </a> 		    
+  </li>
+
+  <li>
     <b>2020</b> &nbsp;
     <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=38984&amp;type=1">
       1TD397,
