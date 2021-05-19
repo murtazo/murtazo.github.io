@@ -13,7 +13,7 @@ order: 2
   <li>
     <b>2021</b> &nbsp;
     <a href="https://www.uu.se/en/admissions/freestanding-courses/course/?kKod=1TD395&typ=1">
-      1TD397,
+      1TD395,
       Scientific Computing II, 
       (spring term)
     </a> 		    
