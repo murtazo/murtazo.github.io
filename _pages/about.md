@@ -55,7 +55,7 @@ Texas A&M University, USA.
   Multiscale methods, Homogenization. 
 </li>
 <li> 
-  <bf>Mesh-dependent</bf> kernel based method.
+  <b>Mesh-dependent</b> kernel based method.
 </li>
 
 <h4>Visiting address:</h4> 
