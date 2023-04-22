@@ -11,6 +11,47 @@ order: 2
 
 <ul style="list-style-type:none; padding-left:0;">
   <li>
+    <b>2022</b> &nbsp;
+    <a href="https://www.uu.se/en/admissions/exchange/courses/list/course-description/?kKod=1TD056&typ=1">
+      1TD056,
+      Applied Finite Element Methods
+    </a> 		    
+  </li>
+
+  <li>
+    <b>2022</b> &nbsp;
+    <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=34479&amp;type=1">
+      1TD050,
+      Advanced Numerical Methods
+    </a>
+  </li>
+  
+  <li>
+    <b>2022</b> &nbsp;
+    <a href="https://www.uu.se/en/admissions/freestanding-courses/course/?kKod=1TD354&typ=1">
+      1TD354,
+      Scientific Computing For Partial Differential Equations, 
+      (fall term)
+    </a> 		    
+  </li>
+
+  <li>
+    <b>2021</b> &nbsp;
+    <a href="https://www.uu.se/en/admissions/exchange/courses/list/course-description/?kKod=1TD056&typ=1">
+      1TD056,
+      Applied Finite Element Methods
+    </a> 		    
+  </li>
+ 
+  <li>
+    <b>2021</b> &nbsp;
+    <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=34479&amp;type=1">
+      1TD050,
+      Advanced Numerical Methods
+    </a>
+  </li>
+  
+  <li>
     <b>2021</b> &nbsp;
     <a href="https://www.uu.se/en/admissions/freestanding-courses/course/?kKod=1TD395&typ=1">
       1TD395,
