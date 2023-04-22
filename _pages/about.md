@@ -33,8 +33,11 @@ Texas A&M University, USA.
 
 <h4>Research Interests:</h4> 
 <li> 
-  Numerical analysis of partial differential equations in particular
-  compressible and incompressible Navier-Stokes and Euler equations.
+  Numerical analysis of partial differential equations in particular 
+  nonlinear conservation laws.
+</li>
+<li>
+  Compressible and incompressible Navier-Stokes and Euler equations.
 </li>
 <li>
   Fusion processes, compressible Magnetohydrodynamics (MHD), Vlasov equation. 
