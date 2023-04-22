@@ -62,7 +62,7 @@ Texas A&M University, USA.
 </li>
 
 <h4>Visiting address:</h4> 
-  Room POL 2421 ITC, Lägerhyddsvägen 2, hus 2 <br>
+  Room POL 106134 hus 10, Lägerhyddsvägen 1 <br>
   752 37 UPPSALA
 
 <h4>Postal address:</h4>
