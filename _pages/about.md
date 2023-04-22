@@ -36,15 +36,26 @@ Texas A&M University, USA.
   Numerical analysis of partial differential equations in particular
   compressible and incompressible Navier-Stokes and Euler equations.
 </li>
-<li> 
-  Stabilized methods for continuous finite elements.
+<li>
+  Fusion processes, compressible Magnetohydrodynamics (MHD), Vlasov equation. 
 </li>
 <li> 
-  Adaptive methods for turbulent flows,
-  Implicit Large Eddy Simulations, ILES.
+  Stabilized methods for central approximation schemes.
 </li>
 <li> 
   Parabolic regularizations, maximum principle preserving schemes, entropy viscosity.
+</li>
+<li> 
+  Adaptive methods for turbulent flows, Implicit Large Eddy Simulations, ILES.
+</li>
+
+
+<h4>Some additional interests:</h4> 
+<li>
+  Multiscale methods, Homogenization. 
+</li>
+<li> 
+  <bf>Mesh-dependent</bf> kernel based method.
 </li>
 
 <h4>Visiting address:</h4> 
