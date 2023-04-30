@@ -27,28 +27,25 @@ order: 5
       <h3> Previous members </h3>
 	<ul>
     	<li>
-    	    <b>Simon Sticko</b> (PostDoc), 2020-2022. Positivity preserving methods for immersed boundary methods.
+    	<b>Simon Sticko</b> (PostDoc), 2020-2022. Positivity preserving methods for immersed boundary methods.
     	</li>
     	<li>
-		<b>Charitini Stavropoulou</b> (master thesis), 2021. A residual based arti cial viscosity method for the stabilization of the shallow water equations.	    		    
+	<b>Charitini Stavropoulou</b> (master thesis), 2021. A residual based arti cial viscosity method for the stabilization of the shallow water equations.	    		    
 	</li>
     	<li>
-		<b>Tuan Anh Dao</b> (master thesis), 2021. A stable and accurate hybrid FE-FD method.
+	<b>Tuan Anh Dao</b> (master thesis), 2021. A stable and accurate hybrid FE-FD method.
 	</li>
     	<li>
-		<b>Anton Segerkvist</b> (bachelor thesis), 2015. A Comparison of Linear and Nonlinear Finite Element Stabilization Techniques for Fluid Problems.
+	<b>Tianhao Zhang</b> (master thesis), 2019. Stability analysis of goal-oriented adaptivity for 2D incompressible flow problems.
 	</li>
 	<li>
-		<b>William Sjösten</b> and <b>Victor Vadling</b> (bachelor thesis), 2018. Finite Element Approximations of 2D Incompressible Navier-Stokes Equations Using Residual Viscosity.
+	<b>William Sjösten</b> and <b>Victor Vadling</b> (bachelor thesis), 2018. Finite Element Approximations of 2D Incompressible Navier-Stokes Equations Using Residual Viscosity.
 	</li>
     	<li>
-		<b>Tianhao Zhang</b> (master thesis), 2019. Stability analysis of goal-oriented adaptivity for 2D incompressible flow problems.
+	<b>Anton Segerkvist</b> (bachelor thesis), 2015. A Comparison of Linear and Nonlinear Finite Element Stabilization Techniques for Fluid Problems.
 	</li>
 	</ul>
-
     </div>
   </div>
-
-
 </article>
 
