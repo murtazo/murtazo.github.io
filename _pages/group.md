@@ -10,7 +10,6 @@ order: 5
 <article>
   <div class="row">
     <div class="col">
-      
       <h3> Murtazo Nazarov </h3>
       <h5> Associate Professor </h5>
       <i class="icon-search"></i>
@@ -40,5 +39,49 @@ order: 5
           <img class="img-fluid z-depth-4 rounded" src="/assets/img/pic2_small.jpg">
       </div>
   </div>
+
+	
+    <div class="col">
+      <h3> Lukas Lungren </h3>
+      <h5> PhD student </h5>
+      <i class="icon-search"></i>
+	<b>Research topic</b>
+	    <ul>
+	    	<li>
+	    	    High-order finite element approximation of variable density incompressible flow.
+	    	</li>
+	</ul>
+    </div>
+  </div>
+
+    <div class="col">
+      <h3> Tuan Anh Dao </h3>
+      <h5> PhD student </h5>
+      <i class="icon-search"></i>
+	<b>Research topic</b>
+	    <ul>
+	    	<li>
+	    	    Invariant domain preserving schemes for Magnetohydrodynamics.
+	    	</li>
+	</ul>
+    </div>
+  </div>
+
+    <div class="col">
+          <h2> Tuan Anh Dao </h2>
+      <h3> Tuan Anh Dao </h3>
+      <h5> PhD student </h5>
+      <i class="icon-search"></i>
+	<b>Research topic</b>
+	    <ul>
+	    	<li>
+	    	    Invariant domain preserving schemes for Magnetohydrodynamics.
+	    	</li>
+	</ul>
+    </div>
+
+
+ </div>
+
 </article>
 
