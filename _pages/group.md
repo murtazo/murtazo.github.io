@@ -67,19 +67,6 @@ order: 5
     </div>
   </div>
 
-    <div class="col">
-          <h2> Tuan Anh Dao </h2>
-      <h3> Tuan Anh Dao </h3>
-      <h5> PhD student </h5>
-      <i class="icon-search"></i>
-	<b>Research topic</b>
-	    <ul>
-	    	<li>
-	    	    Invariant domain preserving schemes for Magnetohydrodynamics.
-	    	</li>
-	</ul>
-    </div>
-
 
  </div>
 
