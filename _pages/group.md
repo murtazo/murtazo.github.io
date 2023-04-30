@@ -37,7 +37,7 @@ order: 5
 	</li>
     	<li>
 		<b>Anton Segerkvist</b> (bachelor thesis), 2015. A Comparison of Linear and Nonlinear Finite Element Stabilization Techniques for Fluid Problems.
-	/li>
+	</li>
 	<li>
 		<b>William Sjösten</b> and <b>Victor Vadling</b> (bachelor thesis), 2018. Finite Element Approximations of 2D Incompressible Navier-Stokes Equations Using Residual Viscosity.
 	</li>
