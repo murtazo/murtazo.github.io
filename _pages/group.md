@@ -43,13 +43,19 @@ order: 5
 	
   <div class="row">
    <div class="col">
-      <h3> Lukas Lungren </h3>
-      <h5> PhD student </h5>
-      <i class="icon-search"></i>
+      <h3> PhD students </h3>
+      <h5> Lukas Lungren </h5>
 	<b>Research topic</b>
 	    <ul>
 	    	<li>
 	    	    High-order finite element approximation of variable density incompressible flow.
+	    	</li>
+	</ul>
+      <h5> Tuan Anh Dao </h5>
+	<b>Research topic</b>
+	    <ul>
+	    	<li>
+	    	    Invariant domain preserving schemes for Magnetohydrodynamics.
 	    	</li>
 	</ul>
     </div>
@@ -57,13 +63,12 @@ order: 5
 
   <div class="row">
    <div class="col">
-      <h3> Tuan Anh Dao </h3>
-      <h5> PhD student </h5>
-      <i class="icon-search"></i>
+      <h3> Previous members </h3>
+      <h5> Simon Sticko (PostDoc)</h5>
 	<b>Research topic</b>
 	    <ul>
 	    	<li>
-	    	    Invariant domain preserving schemes for Magnetohydrodynamics.
+	    	    Positivity preserving methods for immersed boundary methods.
 	    	</li>
 	</ul>
     </div>
