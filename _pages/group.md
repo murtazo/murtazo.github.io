@@ -42,7 +42,7 @@ order: 5
 
 	
   <div class="row">
- 	<div class="col">
+   <div class="col">
       <h3> Lukas Lungren </h3>
       <h5> PhD student </h5>
       <i class="icon-search"></i>
@@ -56,7 +56,7 @@ order: 5
   </div>
 
   <div class="row">
-	  <div class="col">
+   <div class="col">
       <h3> Tuan Anh Dao </h3>
       <h5> PhD student </h5>
       <i class="icon-search"></i>
