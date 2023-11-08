@@ -29,7 +29,7 @@ I am an Associate Professor in the
 of the <a href="http://www.it.uu.se">Department of Information Technology</a>
 at <a href="http://www.uu.se">Uppsala University</a>. 
 Before coming to Uppsala, I was a Visiting Assistant Professor of Mathematics at 
-Texas A&M University, USA.
+<a href="https://www.math.tamu.edu/index.html">Texas A&M University</a>, USA.
 
 <h4>Research Interests:</h4> 
 <li> 
