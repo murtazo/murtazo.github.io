@@ -28,7 +28,7 @@ I am an Associate Professor in the
 <a href="http://www.it.uu.se/research/scicomp">Division of Scientific Computing</a> 
 of the <a href="http://www.it.uu.se">Department of Information Technology</a>
 at <a href="http://www.uu.se">Uppsala University</a>. 
-Prior coming to Uppsala, I was a Visiting Assistant Professor of Mathematics at 
+Before coming to Uppsala, I was a Visiting Assistant Professor of Mathematics at 
 Texas A&M University, USA.
 
 <h4>Research Interests:</h4> 
