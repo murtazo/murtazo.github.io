@@ -25,10 +25,10 @@ order: 5
   <div class="row">
    <div class="col">
       <h3> Previous members </h3>
+	<ul>
 	<li>
 	<b>Lukas Lungren</b>, PhD student, topic: High-order finite element approximation of variable density incompressible flow.
 	</li>
-	<ul>
     	<li>
     	<b>Simon Sticko</b> (PostDoc), 2020-2022. Positivity preserving methods for immersed boundary methods.
     	</li>
