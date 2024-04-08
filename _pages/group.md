@@ -13,6 +13,9 @@ order: 5
       <h3> Current students </h3>
 	    <ul>
 	    	<li>
+		<b>Peter Munch</b>, PostDoc, topic: Large-scale simulation of fusion processes.
+	    	</li>
+	    	<li>
 		<b>Tuan Anh Dao</b>, PhD student, topic: Invariant domain preserving schemes for Magnetohydrodynamics.
 	    	</li>
 	    	<li>
@@ -27,7 +30,10 @@ order: 5
       <h3> Previous members </h3>
 	<ul>
 	<li>
-	<b>Lukas Lungren</b>, PhD student, topic: High-order finite element approximation of variable density incompressible flow.
+	b>Junjie Wen</b>, PhD student, 2023: Finite element approximations of Vlasov-Poisson system.
+	</li>
+	<li>
+	<b>Lukas Lungren</b>, PhD student, 2023: High-order finite element approximation of variable density incompressible flow.
 	</li>
     	<li>
     	<b>Simon Sticko</b> (PostDoc), 2020-2022. Positivity preserving methods for immersed boundary methods.
