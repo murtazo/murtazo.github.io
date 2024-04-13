@@ -30,9 +30,6 @@ order: 5
       <h3> Previous members </h3>
 	<ul>
 	<li>
-	<b>Junjie Wen</b>, PhD student, 2023: Finite element approximations of Vlasov-Poisson system.
-	</li>
-	<li>
 	<b>Lukas Lungren</b>, PhD student, 2023: High-order finite element approximation of variable density incompressible flow.
 	</li>
     	<li>
