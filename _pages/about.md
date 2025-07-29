@@ -8,7 +8,7 @@ description: <a href="http://www.it.uu.se/research/scicomp">Division of Scientif
 
 profile:
   align: left
-  image: pic2.jpg
+  image: pic3.jpg
   address: >
     <p>
       <a href="mailto:murtazo.nazarov@uu.se"><i class="fas fa-envelope fa-lg"></i></a>
