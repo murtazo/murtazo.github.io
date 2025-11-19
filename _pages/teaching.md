@@ -14,7 +14,7 @@ order: 2
 <!-- 2025 -->
 
   <li>
-    <b>2024</b> &nbsp;
+    <b>2025</b> &nbsp;
     <a href="https://www.uu.se/en/study/course?query=1TD317">
       1TD317,
       Computers and Programming
