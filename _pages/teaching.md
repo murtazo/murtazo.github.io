@@ -10,7 +10,71 @@ order: 2
 <h3>Courses at Uppsala University</h3>
 
 <ul style="list-style-type:none; padding-left:0;">
+
+<!-- 2025 -->
+
   <li>
+    <b>2024</b> &nbsp;
+    <a href="https://www.uu.se/en/study/course?query=1TD317">
+      1TD317,
+      Computers and Programming
+    </a> 		    
+  </li>
+
+  <li>
+    <b>2025</b> &nbsp;
+    <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=34479&amp;type=1">
+      1TD050,
+      Advanced Numerical Methods
+    </a>
+  </li>
+  
+  <li>
+    <b>2025</b> &nbsp;
+    <a href="https://www.uu.se/en/study/course?query=1TD342">
+      1TD342,
+      Introduction to Scientific Computing
+    </a> 		    
+  </li>
+
+<!--    -->
+
+<!-- 2024 -->
+  <li>
+    <b>2024</b> &nbsp;
+    <a href="">
+      FTN0542,
+      Simulation Technologies
+    </a> 		    
+  </li>
+
+  <li>
+    <b>2024</b> &nbsp;
+    <a href="https://www.uu.se/en/study/course?query=1TD317">
+      1TD317,
+      Computers and Programming
+    </a> 		    
+  </li>
+
+  <li>
+    <b>2024</b> &nbsp;
+    <a href="https://www.uu.se/en/admissions/exchange/courses/list/course-description/?kKod=1TD056&typ=1">
+      1TD056,
+      Applied Finite Element Methods
+    </a> 		    
+  </li>
+
+  <li>
+    <b>2024</b> &nbsp;
+    <a href="http://www.uu.se/en/admissions/master/selma/kursplan/?kpid=34479&amp;type=1">
+      1TD050,
+      Advanced Numerical Methods
+    </a>
+  </li>
+<!--    -->
+
+<!-- 2023 -->
+    <li>
     <b>2023</b> &nbsp;
     <a href="https://www.uu.se/en/admissions/exchange/courses/list/course-description/?kKod=1TD056&typ=1">
       1TD056,
