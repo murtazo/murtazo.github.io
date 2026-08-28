@@ -105,6 +105,75 @@ body {
   }
 }
 
+.media-page {
+  h2 {
+    margin-top: 3rem;
+    margin-bottom: 1.25rem;
+  }
+
+  h2:first-of-type {
+    margin-top: 1.75rem;
+  }
+
+  .media-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-bottom: 2.75rem;
+  }
+
+  .media-card {
+    background: #fff;
+    border: 1px solid $grey-color-light;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+  }
+
+  .media-card-image {
+    display: block;
+  }
+
+  .media-card-image img {
+    aspect-ratio: 16 / 9;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .media-card-body {
+    padding: 1.15rem 1.25rem 1.25rem;
+  }
+
+  .media-card-body h3 {
+    font-size: 1.15rem;
+    line-height: 1.35;
+    margin: 0 0 0.65rem;
+  }
+
+  .media-card-body p:last-child {
+    margin-bottom: 0;
+  }
+
+  .media-type {
+    color: $grey-color;
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.45rem;
+    text-transform: uppercase;
+  }
+
+  .media-links {
+    margin-bottom: 2.5rem;
+    padding-left: 1.25rem;
+  }
+
+  .media-links li {
+    margin-bottom: 0.85rem;
+    padding-left: 0.25rem;
+  }
+}
+
 // TODO: redefine content layout.
 
 
