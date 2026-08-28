@@ -8,7 +8,7 @@ layout: default
     <p class="post-description">{{ page.description }}</p>
   </header>
 
-  <article>
+  <article{% if page.page_class %} class="{{ page.page_class }}"{% endif %}>
     {{ content }}
   </article>
 

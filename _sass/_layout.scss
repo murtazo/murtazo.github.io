@@ -29,6 +29,30 @@ body {
   }
 }
 
+.teaching-page {
+  h2 {
+    margin-top: 3rem;
+    margin-bottom: 1.25rem;
+  }
+
+  h2:first-child {
+    margin-top: 1.5rem;
+  }
+
+  h3 {
+    margin-top: 2.25rem;
+    margin-bottom: 1rem;
+  }
+
+  table {
+    margin-bottom: 2.5rem;
+  }
+
+  thead {
+    display: none;
+  }
+}
+
 // TODO: redefine content layout.
 
 

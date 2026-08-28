@@ -5,6 +5,7 @@ title: Teaching
 description:
 nav: true
 order: 3
+page_class: teaching-page
 ---
 
 ## Current and recent teaching at Uppsala University
