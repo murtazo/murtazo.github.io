@@ -44,6 +44,27 @@ I am an **Associate Professor in Scientific Computing** in the
 <a href="https://www.it.uu.se">Department of Information Technology</a>,
 at <a href="https://www.uu.se">Uppsala University</a>.
 
+My research is in **numerical analysis and scientific computing for partial differential equations**, with a particular focus on **structure-preserving numerical methods, computational fluid dynamics, magnetohydrodynamics, and kinetic plasma models**.
+
+Before joining Uppsala University, I was a Visiting Assistant Professor of Mathematics at
+<a href="https://www.math.tamu.edu/">Texas A&M University</a>, USA.
+
+More information about my current research can be found on the [Research](/research/) page.
+
+### Visiting address
+
+Room POL 106134, House 10  
+Lägerhyddsvägen 1  
+752 37 Uppsala  
+Sweden
+
+### Postal address
+
+Department of Information Technology  
+Uppsala University  
+Box 337  
+751 05 Uppsala  
+Sweden
 My research is in **numerical analysis and scientific computing for partial differential equations**,
 with particular emphasis on developing robust, high-order, and structure-preserving numerical
 methods for problems arising in **fluid dynamics, magnetohydrodynamics, and kinetic plasma physics**.
