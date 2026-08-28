@@ -6,25 +6,36 @@ nav: true
 order: 2
 ---
 
-My research is in **numerical analysis and scientific computing for partial differential equations**. I develop robust, high-order methods for nonlinear problems in fluid dynamics, magnetohydrodynamics (MHD), and kinetic plasma physics.
+My research is in **numerical analysis and scientific computing for partial differential equations**, with applications in fluid dynamics, magnetohydrodynamics (MHD), and kinetic plasma physics.
 
 ## Structure-preserving numerical methods
 
-A central goal of my work is to design discretizations that preserve essential properties of the underlying models: conservation laws, positivity, invariant domains, entropy inequalities, maximum principles, and nonlinear stability. Such properties are especially important when solutions contain shocks, steep gradients, or multiple scales.
+My expertise includes:
 
-I work with high-order finite element and summation-by-parts (SBP) finite difference methods, together with nonlinear stabilization techniques such as convex limiting, flux-corrected transport, and residual or entropy viscosity. The aim is to obtain schemes that are robust near nonsmooth features while retaining high-order accuracy in smooth regions.
+- high-order finite element and summation-by-parts (SBP) finite difference methods;
+- conservation, positivity, invariant-domain preservation, entropy inequalities, and nonlinear stability;
+- convex limiting, flux-corrected transport, and residual or entropy viscosity;
+- nonlinear stabilization for shocks, steep gradients, and multiscale problems.
 
 ## Fluid dynamics and magnetohydrodynamics
 
-I study numerical methods for compressible and incompressible flow, nonlinear conservation laws, and ideal, viscous, and resistive MHD. These systems combine strong nonlinearities with physical constraints such as positivity of density and pressure, conservation of mass, momentum, and energy, and—in MHD—constraints on the magnetic field.
+My expertise includes:
 
-My interests include shock capturing, invariant-domain- and entropy-stable discretizations, nonlinear stabilization of continuous Galerkin methods, and reliable high-order simulation of under-resolved and high-speed flows.
+- compressible and incompressible flow, nonlinear conservation laws, and ideal, viscous, and resistive MHD;
+- high-order and continuous Galerkin discretizations;
+- shock capturing and nonlinear stabilization;
+- invariant-domain- and entropy-stable methods;
+- reliable simulation of high-speed and under-resolved flows.
 
 ## Kinetic plasma models and fusion
 
-Another major focus is the numerical simulation of kinetic plasma models, including the Vlasov--Poisson and Vlasov--Maxwell systems. These problems are challenging because they combine delicate physical structure with very high-dimensional phase spaces.
+My expertise includes:
 
-I develop structure-preserving high-order methods, low-rank approximations, and efficient large-scale implementations for kinetic transport and coupled plasma-field models. This work includes finite element and SBP methods, positivity-preserving discretizations, and matrix-free or GPU-accelerated solvers.
+- Vlasov--Poisson and Vlasov--Maxwell systems, kinetic transport, and coupled plasma-field models;
+- structure-preserving and positivity-preserving discretizations;
+- high-order finite element and SBP methods;
+- low-rank approximations for high-dimensional phase spaces;
+- matrix-free and GPU-accelerated scientific computing.
 
 ## Additional interests
 
