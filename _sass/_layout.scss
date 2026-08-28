@@ -174,6 +174,84 @@ body {
   }
 }
 
+.group-page {
+  h2 {
+    margin-top: 3rem;
+    margin-bottom: 1.25rem;
+  }
+
+  h2:first-of-type {
+    margin-top: 1.75rem;
+  }
+
+  > h3 {
+    margin: 2.25rem 0 1rem;
+  }
+
+  .member-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-bottom: 2.75rem;
+  }
+
+  .member-card {
+    background: #fff;
+    border: 1px solid $grey-color-light;
+    border-top: 3px solid $theme-color;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.08);
+  }
+
+  .member-card-body {
+    padding: 1.25rem 1.35rem 1.35rem;
+  }
+
+  .member-card-body h3 {
+    font-size: 1.3rem;
+    margin: 0 0 0.7rem;
+  }
+
+  .member-card-body p:last-child {
+    margin-bottom: 0;
+  }
+
+  .member-role {
+    color: $grey-color;
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.45rem;
+    text-transform: uppercase;
+  }
+
+  .alumni-list {
+    list-style: none;
+    margin: 0 0 2rem;
+    padding: 0;
+  }
+
+  .alumni-list li {
+    border-bottom: 1px solid $grey-color-light;
+    line-height: 1.5;
+    padding: 1rem 0;
+  }
+
+  .alumni-name,
+  .alumni-role,
+  .alumni-topic {
+    display: block;
+  }
+
+  .alumni-name {
+    font-weight: bold;
+  }
+
+  .alumni-role {
+    color: $grey-color;
+    font-size: 0.9rem;
+  }
+}
+
 // TODO: redefine content layout.
 
 
