@@ -4,7 +4,7 @@ permalink: /group/
 title: Group
 description: 
 nav: true
-order: 5
+order: 6
 ---
 
 <article>
@@ -54,4 +54,3 @@ order: 5
     </div>
   </div>
 </article>
-

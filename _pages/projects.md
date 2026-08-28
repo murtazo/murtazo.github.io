@@ -4,7 +4,7 @@ title: Projects
 permalink: projects/
 description: 
 nav: true
-order: 4
+order: 5
 ---
 
 <div class="projects grid">
@@ -41,4 +41,3 @@ order: 4
   {% endfor %}
   
 </div>
-
