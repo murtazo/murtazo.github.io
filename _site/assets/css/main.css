@@ -25,6 +25,19 @@ body.sticky-bottom-footer { padding-bottom: 0; }
 .publications-page .publications-list h33:first-child { margin-top: 1.75rem; }
 .publications-page author { display: block; letter-spacing: 0.02em; line-height: 1.4; margin-bottom: 0.2rem; }
 .publications-page journal { line-height: inherit; }
+.publications-page .publication-bibtex-trigger { appearance: none; background: transparent; border: 0; color: #B71C1C; cursor: pointer; font: inherit; padding: 0; }
+.publications-page .publication-bibtex-trigger:hover, .publications-page .publication-bibtex-trigger:focus { color: #751212; text-decoration: underline; }
+.publications-page .publication-bibtex-dialog { background: #fff; border: 0; border-radius: 0.5rem; box-shadow: 0 1.25rem 4rem rgba(0, 0, 0, 0.28); color: #111; max-height: 85vh; max-width: 760px; padding: 0; width: 90vw; }
+.publications-page .publication-bibtex-dialog::backdrop { background: rgba(22, 18, 18, 0.62); }
+.publications-page .publication-bibtex-dialog .publication-bibtex-header { align-items: flex-start; border-bottom: 1px solid #e8e8e8; display: flex; gap: 1rem; justify-content: space-between; padding: 1.25rem 1.5rem 1rem; }
+.publications-page .publication-bibtex-dialog .publication-bibtex-label { color: #B71C1C; display: block; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; margin-bottom: 0.3rem; text-transform: uppercase; }
+.publications-page .publication-bibtex-dialog h2 { font-size: 1.15rem; line-height: 1.35; margin: 0; }
+.publications-page .publication-bibtex-dialog .publication-bibtex-close { background: transparent; border: 0; color: #828282; cursor: pointer; font-size: 1.75rem; line-height: 1; padding: 0; }
+.publications-page .publication-bibtex-dialog pre { background: #f6f5f3; border: 0; border-radius: 0; font-size: 0.82rem; line-height: 1.55; margin: 0; max-height: 55vh; overflow: auto; padding: 1.25rem 1.5rem; white-space: pre-wrap; }
+.publications-page .publication-bibtex-dialog .publication-bibtex-actions { border-top: 1px solid #e8e8e8; display: flex; gap: 0.75rem; justify-content: flex-end; padding: 1rem 1.5rem; }
+.publications-page .publication-bibtex-dialog .publication-bibtex-copy, .publications-page .publication-bibtex-dialog .publication-bibtex-done { border: 1px solid #B71C1C; border-radius: 0.25rem; cursor: pointer; font-weight: 500; padding: 0.5rem 0.9rem; }
+.publications-page .publication-bibtex-dialog .publication-bibtex-copy { background: #B71C1C; color: #fff; }
+.publications-page .publication-bibtex-dialog .publication-bibtex-done { background: #fff; color: #B71C1C; }
 @media (max-width: 576px) { .publications-page .publications-list { padding-left: 1.75rem; }
   .publications-page .publications-list h33 { margin-left: -1.75rem; } }
 

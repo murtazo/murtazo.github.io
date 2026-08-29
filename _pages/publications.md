@@ -11,3 +11,5 @@ page_class: publications-page
 For a citation-indexed list of publications, see my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=n16CWycAAAAJ&view_op=list_works&sortby=pubdate).
 
 {% include publications.html %}
+
+<script src="{{ '/assets/js/publications.js' | relative_url }}" defer></script>
