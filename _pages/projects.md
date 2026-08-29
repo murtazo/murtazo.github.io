@@ -1,43 +1,56 @@
 ---
 layout: page
-title: Projects
+title: Numerical simulations
+nav_title: Projects
 permalink: projects/
-description: 
+description: A gallery of numerical experiments in fluid dynamics, shock waves, and multiphysics.
 nav: true
 order: 5
+page_class: simulations-page
 ---
 
-<div class="projects grid">
+<p class="simulations-intro">These examples illustrate structure-preserving and stabilized methods for challenging partial differential equations. Select a simulation for numerical details, or play an available animation.</p>
 
-  {% assign sorted_projects = site.projects | sort: "importance" %}
-  {% for project in sorted_projects %}
-  <div class="grid-item">
-    {% if project.redirect %}
-    <a href="{{ project.redirect }}" target="_blank">
-      {% else %}
-      <a href="{{ project.url | relative_url }}">
-	{% endif %}
-	<div class="card hoverable">
-	  {% if project.img %} 
-	  <!-- <img src="{{ project.img | relative_url }}" alt="project thumbnail"> -->
-	  {% endif %}
-	  <div class="card-body">
-	    <!-- <h2 class="card-title text-lowercase">{{ project.title }}</h2> -->
-	    <!-- <h2 class="card-title">{{ project.title }}</h2> -->
-	    <!-- <p class="card-text">{{ project.description }}</p> -->
-	    <div class="row">
-	      <div class="col-sm mt-3 mt-md-0">
-		<img src="{{ project.img | relative_url }}" alt="project thumbnail">
-	      </div>
-	      <div class="col">
-		<h2 class="card-title">{{ project.title }}</h2>
-		<p class="card-text">{{ project.description }}</p>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-      </a>
-  </div>
+<nav class="simulation-categories" aria-label="Simulation categories">
+  {% for category in site.data.simulations %}
+    <a href="#{{ category.id }}">{{ category.title }}</a>
   {% endfor %}
-  
-</div>
+</nav>
+
+{% for category in site.data.simulations %}
+<section class="simulation-section" id="{{ category.id }}">
+  <header class="simulation-section-header">
+    <p class="simulation-section-number">0{{ forloop.index }}</p>
+    <div>
+      <h2>{{ category.title }}</h2>
+      <p>{{ category.description }}</p>
+    </div>
+  </header>
+
+  <div class="simulation-grid">
+    {% for simulation in category.simulations %}
+    {% assign simulation_href = simulation.href %}
+    {% unless simulation.external %}{% assign simulation_href = simulation.href | relative_url %}{% endunless %}
+    {% assign video_href = simulation.video %}
+    {% if simulation.video_local %}{% assign video_href = simulation.video | relative_url %}{% endif %}
+    <article class="simulation-card">
+      <a class="simulation-image" href="{{ simulation_href }}"{% if simulation.external %} target="_blank" rel="noopener"{% endif %}>
+        <img src="{{ simulation.image | relative_url }}" alt="{{ simulation.title }}" loading="lazy">
+        {% if simulation.video %}<span class="simulation-video-badge" aria-hidden="true">▶ Animation</span>{% endif %}
+      </a>
+      <div class="simulation-card-body">
+        <h3><a href="{{ simulation_href }}"{% if simulation.external %} target="_blank" rel="noopener"{% endif %}>{{ simulation.title }}</a></h3>
+        <p>{{ simulation.description }}</p>
+        <ul class="simulation-tags" aria-label="Methods and topics">
+          {% for tag in simulation.tags %}<li>{{ tag }}</li>{% endfor %}
+        </ul>
+        <div class="simulation-links">
+          <a href="{{ simulation_href }}"{% if simulation.external %} target="_blank" rel="noopener"{% endif %}>{{ simulation.link_label | default: "Numerical details" }}</a>
+          {% if simulation.video %}<a href="{{ video_href }}" target="_blank" rel="noopener">Watch animation ↗</a>{% endif %}
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}

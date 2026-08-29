@@ -6,7 +6,7 @@ img: /assets/arts/var_den/var_den_t_20_640x80_crop.png
 importance: 3
 ---
 
-<h5>ILES of Turbulent Flow around a Volvo Car</h5>
+<h5 id="volvo-car-flow">ILES of turbulent flow around a Volvo car</h5>
 
 Implicit Large Eddy Simulation. The incompressible Navier-Stokes
 equations is computed by a residual based streamline diffusion
@@ -27,7 +27,7 @@ The implicit Cranck-Nicolson method is used for the time discretisation.
     Volvo car aerodynamics simulation
 </div>
 
-<h5>Variable density incompressible flow
+<h5 id="variable-density-flow">Variable-density incompressible flow
 </h5>
 
 One can extend the incompressible solver that we develop to solve with additional advection equation either for density or temperature. 

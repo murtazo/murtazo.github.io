@@ -17,7 +17,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Murtazo Nazarov | Projects</title>
+<title>Murtazo Nazarov | Numerical simulations</title>
 <meta name="description" content="">
 
 <!-- Bootstrap & MDB -->
@@ -54,8 +54,8 @@
       
       
       
-      <!-- <a class="navbar-brand" href="http://localhost:4444/"> -->
-      <a class="navbar-brand title font-weight-lighter" href="http://localhost:4444/">
+      <!-- <a class="navbar-brand" href="/"> -->
+      <a class="navbar-brand title font-weight-lighter" href="/">
         <!-- <span class="font-weight-bold" style="color: #800517">Murtazo</span>
         <span style="color: #800517"> Nazarov</span> -->
 
@@ -170,127 +170,450 @@
 
 </header>
 
+
     <!-- Content -->
 
     <div class="container mt-5">
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Projects</h1>
-    <p class="post-description"></p>
+    <h1 class="post-title">Numerical simulations</h1>
+    <p class="post-description">A gallery of numerical experiments in fluid dynamics, shock waves, and multiphysics.</p>
   </header>
 
-  <article>
-    <div class="projects grid">
+  <article class="simulations-page">
+    <p class="simulations-intro">These examples illustrate structure-preserving and stabilized methods for challenging partial differential equations. Select a simulation for numerical details, or play an available animation.</p>
 
+<nav class="simulation-categories" aria-label="Simulation categories">
   
+    <a href="#compressible">Compressible flows and shock waves</a>
   
-  <div class="grid-item">
+    <a href="#incompressible">Incompressible and variable-density flows</a>
+  
+    <a href="#geophysical">Geophysical and atmospheric flows</a>
+  
+    <a href="#mhd">Magnetohydrodynamics and fusion plasmas</a>
+  
+    <a href="#kinetic">Kinetic plasma simulations</a>
+  
+    <a href="#multiphysics">Multiphysics and other PDE models</a>
+  
+</nav>
+
+<section class="simulation-section" id="compressible">
+  <header class="simulation-section-header">
+    <p class="simulation-section-number">01</p>
+    <div>
+      <h2>Compressible flows and shock waves</h2>
+      <p>High-speed flows with shocks, contact discontinuities, and complex wave interactions.</p>
+    </div>
+  </header>
+
+  <div class="simulation-grid">
     
-      <a href="/projects/euler/">
-	
-	<div class="card hoverable">
-	   
-	  <!-- <img src="/assets/arts/expl/expl3.jpg" alt="project thumbnail"> -->
-	  
-	  <div class="card-body">
-	    <!-- <h2 class="card-title text-lowercase">Nonlinear stabilization for Euler equations</h2> -->
-	    <!-- <h2 class="card-title">Nonlinear stabilization for Euler equations</h2> -->
-	    <!-- <p class="card-text">This project is about viscous regularizations of the compressible Euler equations. The finite element discretization is stabilized using artificial viscosity operators.</p> -->
-	    <div class="row">
-	      <div class="col-sm mt-3 mt-md-0">
-		<img src="/assets/arts/expl/expl3.jpg" alt="project thumbnail" />
-	      </div>
-	      <div class="col">
-		<h2 class="card-title">Nonlinear stabilization for Euler equations</h2>
-		<p class="card-text">This project is about viscous regularizations of the compressible Euler equations. The finite element discretization is stabilized using artificial viscosity operators.</p>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-      </a>
-  </div>
-  
-  <div class="grid-item">
     
-      <a href="/projects/invariant/">
-	
-	<div class="card hoverable">
-	   
-	  <!-- <img src="/assets/arts/cyl/cyl_366746_nodes_crop.png" alt="project thumbnail"> -->
-	  
-	  <div class="card-body">
-	    <!-- <h2 class="card-title text-lowercase">Invariant domain preserving schemes</h2> -->
-	    <!-- <h2 class="card-title">Invariant domain preserving schemes</h2> -->
-	    <!-- <p class="card-text">The aim of the project is to construct positivity, maximum principle, and invariant domain preserving continuous finite element methods for nonlinear conservation laws.</p> -->
-	    <div class="row">
-	      <div class="col-sm mt-3 mt-md-0">
-		<img src="/assets/arts/cyl/cyl_366746_nodes_crop.png" alt="project thumbnail" />
-	      </div>
-	      <div class="col">
-		<h2 class="card-title">Invariant domain preserving schemes</h2>
-		<p class="card-text">The aim of the project is to construct positivity, maximum principle, and invariant domain preserving continuous finite element methods for nonlinear conservation laws.</p>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-      </a>
-  </div>
-  
-  <div class="grid-item">
     
-      <a href="/projects/nse/">
-	
-	<div class="card hoverable">
-	   
-	  <!-- <img src="/assets/arts/var_den/var_den_t_20_640x80_crop.png" alt="project thumbnail"> -->
-	  
-	  <div class="card-body">
-	    <!-- <h2 class="card-title text-lowercase">Incompressible flows</h2> -->
-	    <!-- <h2 class="card-title">Incompressible flows</h2> -->
-	    <!-- <p class="card-text">The incompressible Navier-Stokes equations are solved using continuous finite element approximation.</p> -->
-	    <div class="row">
-	      <div class="col-sm mt-3 mt-md-0">
-		<img src="/assets/arts/var_den/var_den_t_20_640x80_crop.png" alt="project thumbnail" />
-	      </div>
-	      <div class="col">
-		<h2 class="card-title">Incompressible flows</h2>
-		<p class="card-text">The incompressible Navier-Stokes equations are solved using continuous finite element approximation.</p>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-      </a>
-  </div>
-  
-  <div class="grid-item">
     
-      <a href="/projects/misc/">
-	
-	<div class="card hoverable">
-	   
-	  <!-- <img src="/assets/arts/phase_field/aniso.png" alt="project thumbnail"> -->
-	  
-	  <div class="card-body">
-	    <!-- <h2 class="card-title text-lowercase">Miscellaneous projects</h2> -->
-	    <!-- <h2 class="card-title">Miscellaneous projects</h2> -->
-	    <!-- <p class="card-text">The collection of various projects in computational fluid dynamics</p> -->
-	    <div class="row">
-	      <div class="col-sm mt-3 mt-md-0">
-		<img src="/assets/arts/phase_field/aniso.png" alt="project thumbnail" />
-	      </div>
-	      <div class="col">
-		<h2 class="card-title">Miscellaneous projects</h2>
-		<p class="card-text">The collection of various projects in computational fluid dynamics</p>
-	      </div>
-	    </div>
-	  </div>
-	</div>
+    
+    <article class="simulation-card">
+      <a class="simulation-image" href="/projects/euler/#closed-domain-explosion">
+        <img src="/assets/arts/explosion/b_den_t_2_713.png" alt="Explosion in a closed domain" loading="lazy" />
+        <span class="simulation-video-badge" aria-hidden="true">▶ Animation</span>
       </a>
+      <div class="simulation-card-body">
+        <h3><a href="/projects/euler/#closed-domain-explosion">Explosion in a closed domain</a></h3>
+        <p>A strong circular shock interacts repeatedly with internal cylinders and the outer wall.</p>
+        <ul class="simulation-tags" aria-label="Methods and topics">
+          <li>Euler equations</li><li>Entropy viscosity</li><li>High-order FEM</li>
+        </ul>
+        <div class="simulation-links">
+          <a href="/projects/euler/#closed-domain-explosion">Numerical details</a>
+          <a href="https://www.youtube.com/watch?v=Pmc5usZVyfY" target="_blank" rel="noopener">Watch animation ↗</a>
+        </div>
+      </div>
+    </article>
+    
+    
+    
+    
+    
+    <article class="simulation-card">
+      <a class="simulation-image" href="/projects/euler/#double-mach-reflection">
+        <img src="/assets/arts/mach10/mach10_rho_0.0025.png" alt="Mach 10 double-Mach reflection" loading="lazy" />
+        <span class="simulation-video-badge" aria-hidden="true">▶ Animation</span>
+      </a>
+      <div class="simulation-card-body">
+        <h3><a href="/projects/euler/#double-mach-reflection">Mach 10 double-Mach reflection</a></h3>
+        <p>Shock reflection and fine-scale structures in a high-Mach-number wind tunnel.</p>
+        <ul class="simulation-tags" aria-label="Methods and topics">
+          <li>Compressible flow</li><li>Shock capturing</li><li>Unstructured mesh</li>
+        </ul>
+        <div class="simulation-links">
+          <a href="/projects/euler/#double-mach-reflection">Numerical details</a>
+          <a href="https://www.youtube.com/watch?v=BlFsRtSEnK4" target="_blank" rel="noopener">Watch animation ↗</a>
+        </div>
+      </div>
+    </article>
+    
+    
+    
+    
+    
+    <article class="simulation-card">
+      <a class="simulation-image" href="/projects/invariant/#supersonic-cylinder">
+        <img src="/assets/arts/cyl/cyl_366746_nodes_crop.png" alt="Supersonic flow around a cylinder" loading="lazy" />
+        <span class="simulation-video-badge" aria-hidden="true">▶ Animation</span>
+      </a>
+      <div class="simulation-card-body">
+        <h3><a href="/projects/invariant/#supersonic-cylinder">Supersonic flow around a cylinder</a></h3>
+        <p>Bow shocks, reflected waves, separation, and vortical structures downstream of a cylinder.</p>
+        <ul class="simulation-tags" aria-label="Methods and topics">
+          <li>Invariant domains</li><li>Convex limiting</li><li>Euler equations</li>
+        </ul>
+        <div class="simulation-links">
+          <a href="/projects/invariant/#supersonic-cylinder">Numerical details</a>
+          <a href="https://www.youtube.com/watch?v=1bI4BIIa8Zc" target="_blank" rel="noopener">Watch animation ↗</a>
+        </div>
+      </div>
+    </article>
+    
+    
+    
+    
+    
+    <article class="simulation-card">
+      <a class="simulation-image" href="/projects/euler/#circular-riemann-problem">
+        <img src="/assets/arts/expl/expl3.jpg" alt="Circular Riemann problem" loading="lazy" />
+        <span class="simulation-video-badge" aria-hidden="true">▶ Animation</span>
+      </a>
+      <div class="simulation-card-body">
+        <h3><a href="/projects/euler/#circular-riemann-problem">Circular Riemann problem</a></h3>
+        <p>An expanding shock, contact discontinuity, and rarefaction generated by radial initial data.</p>
+        <ul class="simulation-tags" aria-label="Methods and topics">
+          <li>Conservation laws</li><li>Residual viscosity</li><li>Finite elements</li>
+        </ul>
+        <div class="simulation-links">
+          <a href="/projects/euler/#circular-riemann-problem">Numerical details</a>
+          <a href="https://www.youtube.com/watch?v=n_KYucSSInY" target="_blank" rel="noopener">Watch animation ↗</a>
+        </div>
+      </div>
+    </article>
+    
+    
+    
+    
+    
+    <article class="simulation-card">
+      <a class="simulation-image" href="/projects/euler/#implosion-problem">
+        <img src="/assets/arts/impl/impl3.jpg" alt="Implosion problem" loading="lazy" />
+        <span class="simulation-video-badge" aria-hidden="true">▶ Animation</span>
+      </a>
+      <div class="simulation-card-body">
+        <h3><a href="/projects/euler/#implosion-problem">Implosion problem</a></h3>
+        <p>Interacting shocks produced by low-density, low-pressure gas inside a diamond-shaped region.</p>
+        <ul class="simulation-tags" aria-label="Methods and topics">
+          <li>Euler equations</li><li>Nonlinear stabilization</li><li>Riemann problem</li>
+        </ul>
+        <div class="simulation-links">
+          <a href="/projects/euler/#implosion-problem">Numerical details</a>
+          <a href="https://www.youtube.com/watch?v=CnwEnhA9Cic" target="_blank" rel="noopener">Watch animation ↗</a>
+        </div>
+      </div>
+    </article>
+    
   </div>
-  
-  
-</div>
+</section>
+
+<section class="simulation-section" id="incompressible">
+  <header class="simulation-section-header">
+    <p class="simulation-section-number">02</p>
+    <div>
+      <h2>Incompressible and variable-density flows</h2>
+      <p>Turbulent and stratified flows computed with stabilized continuous finite element methods.</p>
+    </div>
+  </header>
+
+  <div class="simulation-grid">
+    
+    
+    
+    
+    
+    <article class="simulation-card">
+      <a class="simulation-image" href="/projects/nse/#volvo-car-flow">
+        <img src="/assets/img/simulations/volvo-flow.jpg" alt="Turbulent flow around a car" loading="lazy" />
+        <span class="simulation-video-badge" aria-hidden="true">▶ Animation</span>
+      </a>
+      <div class="simulation-card-body">
+        <h3><a href="/projects/nse/#volvo-car-flow">Turbulent flow around a car</a></h3>
+        <p>Implicit large-eddy simulation of the turbulent wake behind a full Volvo car geometry.</p>
+        <ul class="simulation-tags" aria-label="Methods and topics">
+          <li>Navier–Stokes</li><li>ILES</li><li>Adaptive FEM</li>
+        </ul>
+        <div class="simulation-links">
+          <a href="/projects/nse/#volvo-car-flow">Numerical details</a>
+          <a href="https://www.youtube.com/watch?v=HTOl0lTet9A" target="_blank" rel="noopener">Watch animation ↗</a>
+        </div>
+      </div>
+    </article>
+    
+    
+    
+    
+    
+    <article class="simulation-card">
+      <a class="simulation-image" href="/projects/nse/#variable-density-flow">
+        <img src="/assets/arts/var_den/var_den_t_20_640x80.png" alt="Variable-density lock exchange" loading="lazy" />
+        
+      </a>
+      <div class="simulation-card-body">
+        <h3><a href="/projects/nse/#variable-density-flow">Variable-density lock exchange</a></h3>
+        <p>Density, vorticity, and artificial viscosity in a gravity-driven lock-exchange flow.</p>
+        <ul class="simulation-tags" aria-label="Methods and topics">
+          <li>Variable density</li><li>Residual viscosity</li><li>Incompressible flow</li>
+        </ul>
+        <div class="simulation-links">
+          <a href="/projects/nse/#variable-density-flow">Numerical details</a>
+          
+        </div>
+      </div>
+    </article>
+    
+  </div>
+</section>
+
+<section class="simulation-section" id="geophysical">
+  <header class="simulation-section-header">
+    <p class="simulation-section-number">03</p>
+    <div>
+      <h2>Geophysical and atmospheric flows</h2>
+      <p>Surface quasi-geostrophic simulations of vortex interactions and multiscale turbulence.</p>
+    </div>
+  </header>
+
+  <div class="simulation-grid">
+    
+    
+    
+    
+    
+    <article class="simulation-card">
+      <a class="simulation-image" href="https://doi.org/10.1137/20M1342616" target="_blank" rel="noopener">
+        <img src="/assets/img/simulations/sqg-decaying-turbulence.jpg" alt="Freely decaying SQG turbulence" loading="lazy" />
+        <span class="simulation-video-badge" aria-hidden="true">▶ Animation</span>
+      </a>
+      <div class="simulation-card-body">
+        <h3><a href="https://doi.org/10.1137/20M1342616" target="_blank" rel="noopener">Freely decaying SQG turbulence</a></h3>
+        <p>Starting from noisy buoyancy data, small vortices emerge, interact, and merge into larger coherent structures.</p>
+        <ul class="simulation-tags" aria-label="Methods and topics">
+          <li>Surface quasi-geostrophic flow</li><li>Turbulence</li><li>Entropy viscosity</li>
+        </ul>
+        <div class="simulation-links">
+          <a href="https://doi.org/10.1137/20M1342616" target="_blank" rel="noopener">Related publication</a>
+          <a href="/assets/videos/simulations/sqg-decaying-turbulence.mp4" target="_blank" rel="noopener">Watch animation ↗</a>
+        </div>
+      </div>
+    </article>
+    
+    
+    
+    
+    
+    <article class="simulation-card">
+      <a class="simulation-image" href="https://doi.org/10.1137/20M1342616" target="_blank" rel="noopener">
+        <img src="/assets/img/simulations/sqg-double-vortex.jpg" alt="Double-vortex SQG interaction" loading="lazy" />
+        <span class="simulation-video-badge" aria-hidden="true">▶ Animation</span>
+      </a>
+      <div class="simulation-card-body">
+        <h3><a href="https://doi.org/10.1137/20M1342616" target="_blank" rel="noopener">Double-vortex SQG interaction</a></h3>
+        <p>Two rotating vortices generate a sharp filamentary layer while remaining distinct over long times.</p>
+        <ul class="simulation-tags" aria-label="Methods and topics">
+          <li>Vortex dynamics</li><li>Fractional diffusion</li><li>Flux-corrected transport</li>
+        </ul>
+        <div class="simulation-links">
+          <a href="https://doi.org/10.1137/20M1342616" target="_blank" rel="noopener">Related publication</a>
+          <a href="/assets/videos/simulations/sqg-double-vortex.mp4" target="_blank" rel="noopener">Watch animation ↗</a>
+        </div>
+      </div>
+    </article>
+    
+  </div>
+</section>
+
+<section class="simulation-section" id="mhd">
+  <header class="simulation-section-header">
+    <p class="simulation-section-number">04</p>
+    <div>
+      <h2>Magnetohydrodynamics and fusion plasmas</h2>
+      <p>Structure-preserving simulations of strongly magnetized, compressible flows.</p>
+    </div>
+  </header>
+
+  <div class="simulation-grid">
+    
+    
+    
+    
+    
+    <article class="simulation-card">
+      <a class="simulation-image" href="https://doi.org/10.1007/s10915-022-01918-4" target="_blank" rel="noopener">
+        <img src="/assets/img/simulations/orszag-tang-density.jpg" alt="Orszag–Tang vortex" loading="lazy" />
+        <span class="simulation-video-badge" aria-hidden="true">▶ Animation</span>
+      </a>
+      <div class="simulation-card-body">
+        <h3><a href="https://doi.org/10.1007/s10915-022-01918-4" target="_blank" rel="noopener">Orszag–Tang vortex</a></h3>
+        <p>Density evolution in a canonical MHD benchmark with interacting shocks and vortical structures.</p>
+        <ul class="simulation-tags" aria-label="Methods and topics">
+          <li>Ideal MHD</li><li>Entropy viscosity</li><li>High-order FEM</li>
+        </ul>
+        <div class="simulation-links">
+          <a href="https://doi.org/10.1007/s10915-022-01918-4" target="_blank" rel="noopener">Related publication</a>
+          <a href="/assets/videos/simulations/orszag-tang-density.mp4" target="_blank" rel="noopener">Watch animation ↗</a>
+        </div>
+      </div>
+    </article>
+    
+    
+    
+    
+    
+    <article class="simulation-card">
+      <a class="simulation-image" href="https://doi.org/10.1016/j.jcp.2024.113009" target="_blank" rel="noopener">
+        <img src="/assets/img/simulations/astrophysical-mhd-jet.jpg" alt="Astrophysical MHD jet" loading="lazy" />
+        <span class="simulation-video-badge" aria-hidden="true">▶ Animation</span>
+      </a>
+      <div class="simulation-card-body">
+        <h3><a href="https://doi.org/10.1016/j.jcp.2024.113009" target="_blank" rel="noopener">Astrophysical MHD jet</a></h3>
+        <p>A Mach 800 magnetized jet propagating into an ambient fluid under a strong background field.</p>
+        <ul class="simulation-tags" aria-label="Methods and topics">
+          <li>Compressible MHD</li><li>Positivity preservation</li><li>Astrophysical flow</li>
+        </ul>
+        <div class="simulation-links">
+          <a href="https://doi.org/10.1016/j.jcp.2024.113009" target="_blank" rel="noopener">Related publication</a>
+          <a href="/assets/videos/simulations/astrophysical-mhd-jet.mp4" target="_blank" rel="noopener">Watch animation ↗</a>
+        </div>
+      </div>
+    </article>
+    
+  </div>
+</section>
+
+<section class="simulation-section" id="kinetic">
+  <header class="simulation-section-header">
+    <p class="simulation-section-number">05</p>
+    <div>
+      <h2>Kinetic plasma simulations</h2>
+      <p>Phase-space dynamics computed with stabilized and positivity-preserving Vlasov solvers.</p>
+    </div>
+  </header>
+
+  <div class="simulation-grid">
+    
+    
+    
+    
+    
+    <article class="simulation-card">
+      <a class="simulation-image" href="https://doi.org/10.1016/j.jcp.2025.114079" target="_blank" rel="noopener">
+        <img src="/assets/img/simulations/bump-on-tail.png" alt="Bump-on-tail instability" loading="lazy" />
+        
+      </a>
+      <div class="simulation-card-body">
+        <h3><a href="https://doi.org/10.1016/j.jcp.2025.114079" target="_blank" rel="noopener">Bump-on-tail instability</a></h3>
+        <p>Nonlinear phase-space vortices generated by a fast particle population interacting with a plasma wave.</p>
+        <ul class="simulation-tags" aria-label="Methods and topics">
+          <li>Vlasov–Poisson</li><li>Phase space</li><li>Nonlinear stabilization</li>
+        </ul>
+        <div class="simulation-links">
+          <a href="https://doi.org/10.1016/j.jcp.2025.114079" target="_blank" rel="noopener">Related publication</a>
+          
+        </div>
+      </div>
+    </article>
+    
+    
+    
+    
+    
+    <article class="simulation-card">
+      <a class="simulation-image" href="https://doi.org/10.1016/j.jcp.2025.114079" target="_blank" rel="noopener">
+        <img src="/assets/img/simulations/multi-vortex-two-stream.png" alt="Multi-vortex two-stream instability" loading="lazy" />
+        
+      </a>
+      <div class="simulation-card-body">
+        <h3><a href="https://doi.org/10.1016/j.jcp.2025.114079" target="_blank" rel="noopener">Multi-vortex two-stream instability</a></h3>
+        <p>Fine vortex structures produced by counter-streaming particle populations while preserving positivity.</p>
+        <ul class="simulation-tags" aria-label="Methods and topics">
+          <li>Vlasov–Poisson</li><li>Positivity</li><li>High-order FEM</li>
+        </ul>
+        <div class="simulation-links">
+          <a href="https://doi.org/10.1016/j.jcp.2025.114079" target="_blank" rel="noopener">Related publication</a>
+          
+        </div>
+      </div>
+    </article>
+    
+  </div>
+</section>
+
+<section class="simulation-section" id="multiphysics">
+  <header class="simulation-section-header">
+    <p class="simulation-section-number">06</p>
+    <div>
+      <h2>Multiphysics and other PDE models</h2>
+      <p>Numerical experiments beyond classical fluid dynamics, including moving interfaces and solidification.</p>
+    </div>
+  </header>
+
+  <div class="simulation-grid">
+    
+    
+    
+    
+    
+    <article class="simulation-card">
+      <a class="simulation-image" href="/projects/misc/#phase-field-solidification">
+        <img src="/assets/arts/phase_field/iso.png" alt="Isotropic phase-field solidification" loading="lazy" />
+        <span class="simulation-video-badge" aria-hidden="true">▶ Animation</span>
+      </a>
+      <div class="simulation-card-body">
+        <h3><a href="/projects/misc/#phase-field-solidification">Isotropic phase-field solidification</a></h3>
+        <p>Phase-field evolution for the solidification of water on a million-node finite element mesh.</p>
+        <ul class="simulation-tags" aria-label="Methods and topics">
+          <li>Phase field</li><li>Solidification</li><li>Finite elements</li>
+        </ul>
+        <div class="simulation-links">
+          <a href="/projects/misc/#phase-field-solidification">Numerical details</a>
+          <a href="https://www.youtube.com/watch?v=7_Kq9U8cV-M" target="_blank" rel="noopener">Watch animation ↗</a>
+        </div>
+      </div>
+    </article>
+    
+    
+    
+    
+    
+    <article class="simulation-card">
+      <a class="simulation-image" href="/projects/misc/#phase-field-solidification">
+        <img src="/assets/arts/phase_field/aniso.png" alt="Anisotropic phase-field solidification" loading="lazy" />
+        <span class="simulation-video-badge" aria-hidden="true">▶ Animation</span>
+      </a>
+      <div class="simulation-card-body">
+        <h3><a href="/projects/misc/#phase-field-solidification">Anisotropic phase-field solidification</a></h3>
+        <p>Direction-dependent crystal growth generated by an anisotropic phase-field model.</p>
+        <ul class="simulation-tags" aria-label="Methods and topics">
+          <li>Anisotropy</li><li>Crystal growth</li><li>Multiphysics</li>
+        </ul>
+        <div class="simulation-links">
+          <a href="/projects/misc/#phase-field-solidification">Numerical details</a>
+          <a href="https://www.youtube.com/watch?v=jd8pYoyqFlA" target="_blank" rel="noopener">Watch animation ↗</a>
+        </div>
+      </div>
+    </article>
+    
+  </div>
+</section>
+
 
   </article>
 

@@ -17,7 +17,7 @@ $$
 
 where $$\beta=10$$.
 
-<h5>Explosion in a closed circle with cylinders</h5> 
+<h5 id="closed-domain-explosion">Explosion in a closed circle with cylinders</h5>
 
 Consider a two dimensional circle with radius $$2$$ centered at
 the origin. Eight circular
@@ -90,7 +90,7 @@ shock ways and contact line and so on.
 </table> 
 <br>		 -->
 
-<h5>Mach 10 Double mach reflection</h5>
+<h5 id="double-mach-reflection">Mach 10 double-Mach reflection</h5>
 In this section we are interested in solving the so-called double Mach
 reflection problem that was popularized by Woodward and Collela in 1984. 
 An incident Mach 10 shock wave of the ideal
@@ -135,7 +135,7 @@ Then method can also be applied to low Mach number subsonic cases. Here is the e
 	Flow past a circular cylinder. 
 </div>
 
-<h5>2D Riemann problem</h5>
+<h5 id="circular-riemann-problem">2D Riemann problem</h5>
 2D Riemann problem with low density and pressure inside a circle: 
 
 $$
@@ -165,6 +165,8 @@ Solution of the explosion problem in 640K unstructured mesh points, FEM solution
 <div class="caption">
 	Animation of the explosion problem. 
 </div>
+
+<h5 id="implosion-problem">Implosion problem</h5>
 
 Now consider the following implosion problem. The density and pressure are lower inside the rhombus:
 
