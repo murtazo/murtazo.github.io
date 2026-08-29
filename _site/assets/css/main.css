@@ -21,8 +21,8 @@ body.sticky-bottom-footer { padding-bottom: 0; }
 .publications-page .publications-list > li { border-bottom: 1px solid #e8e8e8; margin-bottom: 1.25rem; padding: 0 0 1.25rem 0.25rem; }
 .publications-page .publications-list > li::marker { color: #B71C1C; font-weight: bold; }
 .publications-page .publications-list > li p { line-height: 1.55; margin-bottom: 0; }
-.publications-page .publications-list h33 { display: block; margin: 2.5rem 0 1.25rem -2.25rem; }
-.publications-page .publications-list h33:first-child { margin-top: 1.75rem; }
+.publications-page .publications-list h33 { display: block; margin: 0.25rem 0 1.25rem -2.25rem; }
+.publications-page .publications-list h33:first-child { margin-top: 1rem; }
 .publications-page author { display: block; letter-spacing: 0.02em; line-height: 1.4; margin-bottom: 0.2rem; }
 .publications-page journal { line-height: inherit; }
 .publications-page .publication-bibtex-trigger { appearance: none; background: transparent; border: 0; color: #B71C1C; cursor: pointer; font: inherit; padding: 0; }
