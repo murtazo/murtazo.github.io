@@ -3,6 +3,19 @@
 require "cgi"
 
 module BibtexPublications
+  SECTION_TITLES = {
+    "articles" => "Journal articles and preprints",
+    "proceedings" => "Conference proceedings",
+    "popular" => "Popular science presentations",
+    "theses" => "Thesis and dissertations",
+    "reports" => "Technical reports"
+  }.freeze
+
+  LINK_FIELDS = [
+    ["doi", "DOI"], ["url", "URL"], ["arxiv", "arXiv"],
+    ["pdf", "PDF"], ["bib", "bib"]
+  ].freeze
+
   class Parser
     def self.read(path)
       source = File.read(path, encoding: "UTF-8")
@@ -71,27 +84,13 @@ module BibtexPublications
     end
   end
 
-  class Tag < Liquid::Tag
-    SECTION_TITLES = {
-      "articles" => "Journal articles and preprints",
-      "proceedings" => "Conference proceedings",
-      "popular" => "Popular science presentations",
-      "theses" => "Thesis and dissertations",
-      "reports" => "Technical reports"
-    }.freeze
-
-    LINK_FIELDS = [
-      ["doi", "DOI"], ["url", "URL"], ["arxiv", "arXiv"],
-      ["pdf", "PDF"], ["bib", "bib"]
-    ].freeze
-
-    def render(context)
-      site = context.registers[:site]
-      path = File.join(site.source, "_bibliography", "papers.bib")
+  class Renderer
+    def render(path)
       entries = Parser.read(path).sort_by { |entry| entry.fetch("order", "9999").to_i }
       validate!(entries, path)
 
-      output = ['<ol class="publications-list" reversed>']
+      output = ["<!-- Generated from _bibliography/papers.bib; do not edit by hand. -->"]
+      output << '<ol class="publications-list" reversed>'
       SECTION_TITLES.each do |section, title|
         selected = entries.select { |entry| entry["section"] == section }
         next if selected.empty?
@@ -134,6 +133,14 @@ module BibtexPublications
           </p>
         </li>
       HTML
+    end
+  end
+
+  class Tag < Liquid::Tag
+    def render(context)
+      site = context.registers[:site]
+      path = File.join(site.source, "_bibliography", "papers.bib")
+      Renderer.new.render(path)
     end
   end
 end

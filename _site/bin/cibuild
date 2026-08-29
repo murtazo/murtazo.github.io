@@ -3,7 +3,10 @@
 set -e
 
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
-JEKYLL_RUBYOPT="-r${ROOT_DIR}/_plugins/ruby_4_compat.rb -rliquid -r${ROOT_DIR}/_plugins/bibtex_publications.rb"
+
+bundle exec ruby "${ROOT_DIR}/bin/generate_publications"
+
+JEKYLL_RUBYOPT="-r${ROOT_DIR}/_plugins/ruby_4_compat.rb"
 
 RUBYOPT="${JEKYLL_RUBYOPT}${RUBYOPT:+ ${RUBYOPT}}" \
   bundle exec jekyll build

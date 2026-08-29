@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "liquid"
+require_relative "../_plugins/bibtex_publications"
+
+root = File.expand_path("..", __dir__)
+bibliography = File.join(root, "_bibliography", "papers.bib")
+output = File.join(root, "_includes", "publications.html")
+html = BibtexPublications::Renderer.new.render(bibliography)
+
+File.write(output, "#{html}\n")
+puts "Generated #{output} from #{bibliography}"

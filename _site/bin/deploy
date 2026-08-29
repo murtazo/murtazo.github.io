@@ -77,10 +77,10 @@ then
 fi
 git checkout -b $DEPLOY_BRANCH
 
-# Build site. Preload local plugins because github-pages uses safe mode and
-# otherwise skips the repository's _plugins directory.
+# Generate the safe-mode-compatible publications include and build the site.
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
-JEKYLL_RUBYOPT="-r${ROOT_DIR}/_plugins/ruby_4_compat.rb -rliquid -r${ROOT_DIR}/_plugins/bibtex_publications.rb"
+bundle exec ruby "${ROOT_DIR}/bin/generate_publications"
+JEKYLL_RUBYOPT="-r${ROOT_DIR}/_plugins/ruby_4_compat.rb"
 RUBYOPT="${JEKYLL_RUBYOPT}${RUBYOPT:+ ${RUBYOPT}}" bundle exec jekyll build
 
 # Delete and move files
