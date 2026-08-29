@@ -64,6 +64,11 @@ body {
     padding: 0 0 1.25rem 0.25rem;
   }
 
+  .publications-list > li:has(+ h33) {
+    margin-bottom: 0.25rem;
+    padding-bottom: 0.5rem;
+  }
+
   .publications-list > li::marker {
     color: $theme-color;
     font-weight: bold;
