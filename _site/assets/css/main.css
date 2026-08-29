@@ -45,13 +45,20 @@ body.sticky-bottom-footer { padding-bottom: 0; }
 .group-page h2:first-of-type { margin-top: 1.75rem; }
 .group-page > h3 { margin: 2.25rem 0 1rem; }
 .group-page .member-grid { display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin-bottom: 2.75rem; }
-.group-page .member-card { background: #fff; border: 1px solid #e8e8e8; border-top: 3px solid #B71C1C; border-radius: 0.25rem; box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.08); }
+.group-page .member-card { background: #fff; border: 1px solid #e8e8e8; border-top: 3px solid #B71C1C; border-radius: 0.25rem; box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.08); overflow: hidden; }
+.group-page .member-photo { background: #e8e8e8; display: block; height: 17rem; }
+.group-page .member-photo img { height: 100%; object-fit: cover; object-position: center; width: 100%; }
 .group-page .member-card-body { padding: 1.25rem 1.35rem 1.35rem; }
 .group-page .member-card-body h3 { font-size: 1.3rem; margin: 0 0 0.7rem; }
 .group-page .member-card-body p:last-child { margin-bottom: 0; }
 .group-page .member-role { color: #828282; font-size: 0.8rem; letter-spacing: 0.04em; margin-bottom: 0.45rem; text-transform: uppercase; }
 .group-page .alumni-list { list-style: none; margin: 0 0 2rem; padding: 0; }
 .group-page .alumni-list li { border-bottom: 1px solid #e8e8e8; line-height: 1.5; padding: 1rem 0; }
+.group-page .alumni-list .alumni-with-photo { align-items: center; display: flex; gap: 1rem; }
+.group-page .alumni-photo { border-radius: 50%; height: 4.5rem; object-fit: cover; object-position: center 25%; width: 4.5rem; }
+.group-page .alumni-photo-link, .group-page .alumni-with-photo > .alumni-photo { flex: 0 0 4.5rem; }
+.group-page .alumni-photo-link { display: block; height: 4.5rem; }
+.group-page .alumni-details { min-width: 0; }
 .group-page .alumni-name, .group-page .alumni-role, .group-page .alumni-topic { display: block; }
 .group-page .alumni-name { font-weight: bold; }
 .group-page .alumni-role { color: #828282; font-size: 0.9rem; }

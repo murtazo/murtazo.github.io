@@ -14,6 +14,10 @@ Our group develops structure-preserving numerical methods for partial differenti
 
 <div class="member-grid">
   <article class="member-card">
+    <!-- Photo source: Uppsala University staff profile. -->
+    <a class="member-photo" href="https://rafrodvel.github.io/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+      <img src="{{ '/assets/img/group/rafael-rodriguez-velasco.jpg' | relative_url }}" alt="">
+    </a>
     <div class="member-card-body">
       <p class="member-role">PhD student</p>
       <h3><a href="https://rafrodvel.github.io/" target="_blank" rel="noopener">Rafael Rodriguez-Velasco</a></h3>
@@ -22,6 +26,10 @@ Our group develops structure-preserving numerical methods for partial differenti
   </article>
 
   <article class="member-card">
+    <!-- Photo source: Uppsala University. -->
+    <a class="member-photo" href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-2736" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+      <img src="{{ '/assets/img/group/junjie-wen.jpg' | relative_url }}" alt="">
+    </a>
     <div class="member-card-body">
       <p class="member-role">PhD student</p>
       <h3><a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-2736" target="_blank" rel="noopener">Junjie Wen</a></h3>
@@ -35,25 +43,41 @@ Our group develops structure-preserving numerical methods for partial differenti
 ### PhD students and postdoctoral researchers
 
 <ul class="alumni-list">
-  <li>
-    <span class="alumni-name">Peter Munch</span>
-    <span class="alumni-role">Postdoctoral researcher</span>
-    <span class="alumni-topic">Large-scale simulation of fusion processes.</span>
+  <li class="alumni-with-photo">
+    <!-- Photo source: Technische Universität Berlin. -->
+    <img class="alumni-photo" src="{{ '/assets/img/group/peter-munch.jpg' | relative_url }}" alt="Peter Munch" loading="lazy">
+    <div class="alumni-details">
+      <span class="alumni-name"><a href="https://scholar.google.com/citations?user=ILHWH8kAAAAJ&amp;hl=en" target="_blank" rel="noopener">Peter Munch</a></span>
+      <span class="alumni-role">Postdoctoral researcher</span>
+      <span class="alumni-topic">Large-scale simulation of fusion processes.</span>
+    </div>
+  </li>
+  <li class="alumni-with-photo">
+    <!-- Photo source: Tuan Anh Dao's personal academic website. -->
+    <a class="alumni-photo-link" href="https://tuananhdao.github.io/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+      <img class="alumni-photo" src="{{ '/assets/img/group/tuan-anh-dao.jpg' | relative_url }}" alt="" loading="lazy">
+    </a>
+    <div class="alumni-details">
+      <span class="alumni-name"><a href="https://tuananhdao.github.io/" target="_blank" rel="noopener">Tuan Anh Dao</a></span>
+      <span class="alumni-role">PhD, 2024</span>
+      <span class="alumni-topic"><a href="https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1872071" target="_blank" rel="noopener">Invariant domain preserving schemes for magnetohydrodynamics</a>.</span>
+    </div>
   </li>
   <li>
-    <span class="alumni-name">Tuan Anh Dao</span>
-    <span class="alumni-role">PhD, 2024</span>
-    <span class="alumni-topic"><a href="https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1872071" target="_blank" rel="noopener">Invariant domain preserving schemes for magnetohydrodynamics</a>.</span>
-  </li>
-  <li>
-    <span class="alumni-name">Lukas Lundgren</span>
+    <span class="alumni-name"><a href="https://scholar.google.com/citations?hl=sv&amp;user=iAilIEwAAAAJ" target="_blank" rel="noopener">Lukas Lundgren</a></span>
     <span class="alumni-role">PhD, 2023</span>
     <span class="alumni-topic"><a href="https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1755208" target="_blank" rel="noopener">High-order finite element methods for incompressible variable density flow</a>.</span>
   </li>
-  <li>
-    <span class="alumni-name">Simon Sticko</span>
-    <span class="alumni-role">Postdoctoral researcher, 2020–2022</span>
-    <span class="alumni-topic">Positivity-preserving methods for immersed boundary methods.</span>
+  <li class="alumni-with-photo">
+    <!-- Photo source: Simon Sticko's Google Scholar profile. -->
+    <a class="alumni-photo-link" href="https://scholar.google.com/citations?hl=sv&amp;user=d279wl0AAAAJ" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+      <img class="alumni-photo" src="{{ '/assets/img/group/simon-sticko.jpg' | relative_url }}" alt="" loading="lazy">
+    </a>
+    <div class="alumni-details">
+      <span class="alumni-name"><a href="https://scholar.google.com/citations?hl=sv&amp;user=d279wl0AAAAJ" target="_blank" rel="noopener">Simon Sticko</a></span>
+      <span class="alumni-role">Postdoctoral researcher, 2020–2022</span>
+      <span class="alumni-topic">Positivity-preserving methods for immersed boundary methods.</span>
+    </div>
   </li>
 </ul>
 

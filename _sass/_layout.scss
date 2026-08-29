@@ -201,6 +201,20 @@ body {
     border-top: 3px solid $theme-color;
     border-radius: 0.25rem;
     box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+  }
+
+  .member-photo {
+    background: $grey-color-light;
+    display: block;
+    height: 17rem;
+  }
+
+  .member-photo img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
   }
 
   .member-card-body {
@@ -234,6 +248,34 @@ body {
     border-bottom: 1px solid $grey-color-light;
     line-height: 1.5;
     padding: 1rem 0;
+  }
+
+  .alumni-list .alumni-with-photo {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .alumni-photo {
+    border-radius: 50%;
+    height: 4.5rem;
+    object-fit: cover;
+    object-position: center 25%;
+    width: 4.5rem;
+  }
+
+  .alumni-photo-link,
+  .alumni-with-photo > .alumni-photo {
+    flex: 0 0 4.5rem;
+  }
+
+  .alumni-photo-link {
+    display: block;
+    height: 4.5rem;
+  }
+
+  .alumni-details {
+    min-width: 0;
   }
 
   .alumni-name,
