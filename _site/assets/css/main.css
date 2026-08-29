@@ -19,7 +19,6 @@ body.sticky-bottom-footer { padding-bottom: 0; }
 
 .publications-page .publications-list { padding-left: 2.25rem; }
 .publications-page .publications-list > li { border-bottom: 1px solid #e8e8e8; margin-bottom: 1.25rem; padding: 0 0 1.25rem 0.25rem; }
-.publications-page .publications-list > li:has(+ h33) { margin-bottom: 0.25rem; padding-bottom: 0.5rem; }
 .publications-page .publications-list > li::marker { color: #B71C1C; font-weight: bold; }
 .publications-page .publications-list > li p { line-height: 1.55; margin-bottom: 0; }
 .publications-page .publications-list h33 { display: block; margin: 0.25rem 0 1.25rem -2.25rem; }
