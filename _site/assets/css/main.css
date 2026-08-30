@@ -158,7 +158,8 @@ div.par { font-weight: normal; margin-left: 0; line-height: 1.4em; padding: 0 20
 
 div.header_img { width: 181px; height: 62px; }
 
-div.clustr { opacity: 0%; width: 5px; height: 5px; }
+div.clustr { margin-top: 1rem; overflow: hidden; text-align: center; width: 100%; }
+div.clustr img, div.clustr canvas { height: auto; max-width: 100%; }
 
 b { font-weight: bold; }
 
