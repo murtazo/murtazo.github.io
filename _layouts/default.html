@@ -1,19 +1,12 @@
 <!DOCTYPE html>
-<html>
-
-  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-  <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "AMS" } } }); </script>
-
-<!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.css"> -->
-
-
-
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script>
+<html lang="en">
 
   <head>
     {% include head.html %}
+    <script>
+      MathJax = { TeX: { equationNumbers: { autoNumber: "AMS" } } };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   </head>
 
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
@@ -32,8 +25,7 @@
 
     {% include footer.html %}
 
+    {% include hemline.html %}
   </body>
-
-  {% include hemline.html %}
 
 </html>

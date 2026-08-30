@@ -9,6 +9,10 @@ body.sticky-bottom-footer { padding-bottom: 0; }
 
 .container { max-width: 800px; }
 
+.site-rule { background-color: #800517; height: 1px; width: 100%; }
+
+.about-page h2 { font-size: 130%; }
+
 .profile img { width: 100%; }
 
 .teaching-page h2 { margin-top: 1.75rem; margin-bottom: 1.25rem; }

@@ -51,18 +51,17 @@ Before joining Uppsala University, I was a Visiting Assistant Professor of Mathe
 
 More information about my current research can be found on the [Research](/research/) page.
 
-### Visiting address
+## Visiting address
 
 Room POL 106134, House 10  
 Lägerhyddsvägen 1  
 752 37 Uppsala  
 Sweden
 
-### Postal address
+## Postal address
 
 Department of Information Technology  
 Uppsala University  
 Box 337  
 751 05 Uppsala  
 Sweden
-

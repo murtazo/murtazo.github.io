@@ -22,6 +22,16 @@ body {
   max-width: $max-content-width;
 }
 
+.site-rule {
+  background-color: #800517;
+  height: 1px;
+  width: 100%;
+}
+
+.about-page h2 {
+  font-size: 130%;
+}
+
 // Profile
 .profile {
   img {
