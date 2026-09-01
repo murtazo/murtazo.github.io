@@ -168,9 +168,50 @@ body {
     padding-left: 1.25rem;
   }
 
+  .media-feature {
+    align-items: flex-start;
+    border: 1px solid $grey-color-light;
+    display: flex;
+    gap: 1.25rem;
+    margin-bottom: 1.75rem;
+    padding: 1rem;
+  }
+
+  .media-feature-image {
+    flex: 0 0 180px;
+  }
+
+  .media-feature-image img {
+    aspect-ratio: 4 / 3;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .media-feature h3 {
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem;
+  }
+
+  .media-feature p:last-child {
+    margin-bottom: 0;
+  }
+
   .media-links li {
     margin-bottom: 0.85rem;
     padding-left: 0.25rem;
+  }
+
+  @media (max-width: 576px) {
+    .media-feature {
+      display: block;
+    }
+
+    .media-feature-image {
+      display: block;
+      margin-bottom: 1rem;
+      max-width: 240px;
+    }
   }
 }
 
