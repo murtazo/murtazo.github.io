@@ -88,6 +88,7 @@ Selected interviews, public talks, and media coverage about my work in scientifi
 </article>
 
 <ul class="media-links">
+  <li><a href="https://phti.tj/scientific-and-practical-seminar-of-the-s-u-umarov-physical-technical-institute-of-the-national-academy-of-sciences-of-tajikistan-dushanbe-07-12-2022/" target="_blank" rel="noopener">Scientific and Practical Seminar at the S. U. Umarov Physical-Technical Institute of the National Academy of Sciences of Tajikistan</a> — Dushanbe, 2022.</li>
   <li><a href="https://iftut.tj/news/17" target="_blank" rel="noopener">Professor of Uppsala University at the Faculty of Information Technology, Isfara</a> — outreach meeting with students and faculty.</li>
   <li><a href="https://tj.sputniknews.ru/20170705/tadzhik-shvetsiya-matematicheskii-genii-1022746930.html" target="_blank" rel="noopener">«Математический гений: как таджик покорил холодную Скандинавию»</a> — Sputnik Tajikistan, 2017.</li>
   <li><a href="https://weproject.media/articles/detail/uchenyy-iz-tadzhikistana-o-rabote-prepodavatelem-v-uppsala-university-i-issledovaniyakh-v-oblasti-ma/" target="_blank" rel="noopener">«Как работать ученым в Таджикистане»</a> — profile interview with WEproject.</li>
