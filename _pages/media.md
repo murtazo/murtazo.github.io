@@ -78,7 +78,7 @@ Selected interviews, public talks, and media coverage about my work in scientifi
 
 <article class="media-feature">
   <a class="media-feature-image" href="https://asiaplus.news/en/2026/07/27/in-search-of-the-suns-energy-how-a-scientist-from-tajikistan-is-helping-to-bring-the-thermonuclear-revolution-closer/" target="_blank" rel="noopener">
-    <img src="https://asiaplus.news/wp-content/uploads/2026/07/glavnaya-1.jpg" alt="Murtazo Nazarov in the Asia-Plus interview">
+    <img src="https://asiaplus.news/wp-content/uploads/2026/07/glavnaya-1.jpg" alt="Murtazo Nazarov in the Asia-Plus interview" width="180">
   </a>
   <div>
     <p class="media-type">Asia-Plus · Interview · 2026</p>
