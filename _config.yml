@@ -7,7 +7,7 @@ email: murtazo.nazarov@it.uu.se
 description: > 
 footer_text: >
 url:  # the base hostname & protocol for your site
-baseurl: ./  # the subpath of your site, e.g. /blog/
+baseurl: ""  # user site is served from the domain root
 last_updated: false # set to true if you want to display last updated in the footer
 
 # -----------------------------------------------------------------------------
@@ -186,4 +186,3 @@ mdb:
 popper:
   version: "2.4.0"
   integrity: "sha256-OH05DFHUWzr725HmuHo3pnuvUUn+TJuj8/Qz9xytFEw="
-

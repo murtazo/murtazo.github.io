@@ -136,9 +136,16 @@ div.header_img{
 
 div.clustr
 {
-    opacity: 0%;
-    width: 5px;
-    height: 5px;
+    margin-top: 1rem;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+
+    img,
+    canvas {
+      height: auto;
+      max-width: 100%;
+    }
 }
 
 b { 

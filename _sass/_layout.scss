@@ -22,6 +22,16 @@ body {
   max-width: $max-content-width;
 }
 
+.site-rule {
+  background-color: #800517;
+  height: 1px;
+  width: 100%;
+}
+
+.about-page h2 {
+  font-size: 130%;
+}
+
 // Profile
 .profile {
   img {
@@ -31,7 +41,7 @@ body {
 
 .teaching-page {
   h2 {
-    margin-top: 3rem;
+    margin-top: 1.75rem;
     margin-bottom: 1.25rem;
   }
 
@@ -40,12 +50,12 @@ body {
   }
 
   h3 {
-    margin-top: 2.25rem;
+    margin-top: 1.5rem;
     margin-bottom: 1rem;
   }
 
   table {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
   }
 
   thead {
@@ -76,11 +86,11 @@ body {
 
   .publications-list h33 {
     display: block;
-    margin: 2.5rem 0 1.25rem -2.25rem;
+    margin: 0.25rem 0 1.25rem -2.25rem;
   }
 
   .publications-list h33:first-child {
-    margin-top: 1.75rem;
+    margin-top: 1rem;
   }
 
   author {
@@ -92,6 +102,113 @@ body {
 
   journal {
     line-height: inherit;
+  }
+
+  .publication-bibtex-trigger {
+    appearance: none;
+    background: transparent;
+    border: 0;
+    color: $theme-color;
+    cursor: pointer;
+    font: inherit;
+    padding: 0;
+
+    &:hover,
+    &:focus {
+      color: darken($theme-color, 15%);
+      text-decoration: underline;
+    }
+  }
+
+  .publication-bibtex-dialog {
+    background: #fff;
+    border: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 1.25rem 4rem rgba(0, 0, 0, 0.28);
+    color: $text-color;
+    max-height: 85vh;
+    max-width: 760px;
+    padding: 0;
+    width: 90vw;
+
+    &::backdrop {
+      background: rgba(22, 18, 18, 0.62);
+    }
+
+    .publication-bibtex-header {
+      align-items: flex-start;
+      border-bottom: 1px solid $grey-color-light;
+      display: flex;
+      gap: 1rem;
+      justify-content: space-between;
+      padding: 1.25rem 1.5rem 1rem;
+    }
+
+    .publication-bibtex-label {
+      color: $theme-color;
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.3rem;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      line-height: 1.35;
+      margin: 0;
+    }
+
+    .publication-bibtex-close {
+      background: transparent;
+      border: 0;
+      color: $grey-color;
+      cursor: pointer;
+      font-size: 1.75rem;
+      line-height: 1;
+      padding: 0;
+    }
+
+    pre {
+      background: #f6f5f3;
+      border: 0;
+      border-radius: 0;
+      font-size: 0.82rem;
+      line-height: 1.55;
+      margin: 0;
+      max-height: 55vh;
+      overflow: auto;
+      padding: 1.25rem 1.5rem;
+      white-space: pre-wrap;
+    }
+
+    .publication-bibtex-actions {
+      border-top: 1px solid $grey-color-light;
+      display: flex;
+      gap: 0.75rem;
+      justify-content: flex-end;
+      padding: 1rem 1.5rem;
+    }
+
+    .publication-bibtex-copy,
+    .publication-bibtex-done {
+      border: 1px solid $theme-color;
+      border-radius: 0.25rem;
+      cursor: pointer;
+      font-weight: 500;
+      padding: 0.5rem 0.9rem;
+    }
+
+    .publication-bibtex-copy {
+      background: $theme-color;
+      color: #fff;
+    }
+
+    .publication-bibtex-done {
+      background: #fff;
+      color: $theme-color;
+    }
   }
 
   @media (max-width: 576px) {
@@ -242,6 +359,20 @@ body {
     border-top: 3px solid $theme-color;
     border-radius: 0.25rem;
     box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+  }
+
+  .member-photo {
+    background: $grey-color-light;
+    display: block;
+    height: 17rem;
+  }
+
+  .member-photo img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
   }
 
   .member-card-body {
@@ -277,6 +408,34 @@ body {
     padding: 1rem 0;
   }
 
+  .alumni-list .alumni-with-photo {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .alumni-photo {
+    border-radius: 50%;
+    height: 4.5rem;
+    object-fit: cover;
+    object-position: center 25%;
+    width: 4.5rem;
+  }
+
+  .alumni-photo-link,
+  .alumni-with-photo > .alumni-photo {
+    flex: 0 0 4.5rem;
+  }
+
+  .alumni-photo-link {
+    display: block;
+    height: 4.5rem;
+  }
+
+  .alumni-details {
+    min-width: 0;
+  }
+
   .alumni-name,
   .alumni-role,
   .alumni-topic {
@@ -307,4 +466,189 @@ body {
 * Projects
 *****************************************************************************/
 
-// TODO: redefine projects layout.
+.simulations-page {
+  .simulations-intro {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    max-width: 48rem;
+  }
+
+  .simulation-categories {
+    border-bottom: 1px solid $grey-color-light;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    margin: 2rem 0 3.25rem;
+    padding-bottom: 1rem;
+  }
+
+  .simulation-categories a {
+    color: $grey-color;
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .simulation-categories a:hover {
+    color: $theme-color;
+  }
+
+  .simulation-section {
+    margin-bottom: 4.5rem;
+    scroll-margin-top: 2rem;
+  }
+
+  .simulation-section-header {
+    align-items: start;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 2.5rem minmax(0, 1fr);
+    margin-bottom: 1.5rem;
+  }
+
+  .simulation-section-header h2 {
+    font-size: 1.65rem;
+    margin: 0 0 0.35rem;
+  }
+
+  .simulation-section-header p:last-child {
+    color: $grey-color;
+    margin: 0;
+    max-width: 44rem;
+  }
+
+  .simulation-section-number {
+    color: $theme-color;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    margin: 0.4rem 0 0;
+  }
+
+  .simulation-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .simulation-card {
+    background: #fff;
+    border: 1px solid $grey-color-light;
+    border-radius: 0.3rem;
+    box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    overflow: hidden;
+    transition: box-shadow 180ms ease, transform 180ms ease;
+  }
+
+  .simulation-card:hover {
+    box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+  }
+
+  .simulation-image {
+    background: #111;
+    display: block;
+    height: 14.5rem;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .simulation-image img {
+    height: 100%;
+    object-fit: cover;
+    transition: transform 300ms ease;
+    width: 100%;
+  }
+
+  .simulation-card:hover .simulation-image img {
+    transform: scale(1.025);
+  }
+
+  .simulation-video-badge {
+    background: rgba(20, 20, 20, 0.82);
+    border-radius: 1rem;
+    bottom: 0.8rem;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    left: 0.8rem;
+    letter-spacing: 0.02em;
+    padding: 0.35rem 0.65rem;
+    position: absolute;
+  }
+
+  .simulation-card-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 1.2rem 1.25rem 1.15rem;
+  }
+
+  .simulation-card-body h3 {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    margin: 0 0 0.55rem;
+  }
+
+  .simulation-card-body h3 a {
+    color: inherit;
+  }
+
+  .simulation-card-body h3 a:hover {
+    color: $theme-color;
+    text-decoration: none;
+  }
+
+  .simulation-card-body > p {
+    color: #444;
+    font-size: 0.94rem;
+    line-height: 1.55;
+    margin-bottom: 1rem;
+  }
+
+  .simulation-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    list-style: none;
+    margin: 0 0 1.1rem;
+    padding: 0;
+  }
+
+  .simulation-tags li {
+    background: lighten($grey-color-light, 6%);
+    border-radius: 1rem;
+    color: $grey-color;
+    font-size: 0.72rem;
+    padding: 0.25rem 0.55rem;
+  }
+
+  .simulation-links {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.84rem;
+    gap: 0.65rem 1rem;
+    margin-top: auto;
+  }
+
+  .simulation-links a {
+    font-weight: 600;
+  }
+
+  @media screen and (max-width: 700px) {
+    .simulation-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .simulation-image {
+      height: 13.5rem;
+    }
+
+    .simulation-section {
+      margin-bottom: 3.5rem;
+    }
+  }
+}

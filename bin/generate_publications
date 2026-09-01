@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "liquid"
+require_relative "../_plugins/bibtex_publications"
+
+root = File.expand_path("..", __dir__)
+bibliography = File.join(root, "_bibliography", "papers.bib")
+canonical_bibliography = File.join(root, "_bibliography", "nazarov_references.bib")
+output = File.join(root, "_includes", "publications.html")
+html = BibtexPublications::Renderer.new.render(
+  bibliography,
+  canonical_path: canonical_bibliography
+)
+
+File.write(output, "#{html.rstrip}\n")
+puts "Generated #{output} from #{bibliography}"

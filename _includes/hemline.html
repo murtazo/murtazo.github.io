@@ -8,11 +8,11 @@
 <script src="{{ '/assets/js/common.js' | relative_url }}"></script>
 
 <!-- Code Syntax Highlighting -->
-<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/{{ site.highlight_theme }}.css" />
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/{{ site.highlight_theme }}.css">
 
 {% if site.enable_katex %}
 <!-- Load KaTeX -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/{{ site.katex.version }}/katex.min.css" integrity="{{ site.katex.integrity.css }}" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/{{ site.katex.version }}/katex.min.css" integrity="{{ site.katex.integrity.css }}" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/{{ site.katex.version }}/katex.min.js" integrity="{{ site.katex.integrity.js }}" crossorigin="anonymous"></script>
 <script src="{{ '/assets/js/katex.js' | relative_url }}"></script>
 {% endif %}
@@ -23,7 +23,7 @@
 <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 
 <!-- Project Cards Layout -->
-<script type="text/javascript">
+<script>
   // Init Masonry
   var $grid = $('.grid').masonry({
     gutter: 10,
@@ -39,7 +39,7 @@
 
 {% if site.enable_tooltips %}
 <!-- Enable Tooltips -->
-<script type="text/javascript">
+<script>
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })

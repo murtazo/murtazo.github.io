@@ -11,7 +11,7 @@ layout: default
     <p class="post-description">{{ page.description }}</p>
   </header>
 
-  <article>
+  <article class="about-page">
     <div class="row">
       <div class="col">
         {{ content }}
@@ -19,13 +19,16 @@ layout: default
         {% if page.profile %}
         <div class="profile col-4 {% if page.profile.align == 'left' %}order-first{% endif %}">
           {% if page.profile.image %}
-            <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
+            <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="Portrait of {{ site.title }}">
           {% endif %}
           {% if page.profile.address %}
             <div class="address">
               {{ page.profile.address }}
             </div>
           {% endif %}
+          <div class="clustr" role="region" aria-label="Visitor map">
+            <script id="clustrmaps" src="https://cdn.clustrmaps.com/map_v2.js?u=vlNJ&d=vZYv6hB137CMNBn7eRZ46SsFR-JrZPHO0auUNlvzPrY"></script>
+          </div>
         </div>
         {% endif %}
     </div>
@@ -41,9 +44,5 @@ layout: default
     </div>
     {% endif %}
   </article>
-
-  <div class="clustr">
-      <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?u=vlNJ&d=vZYv6hB137CMNBn7eRZ46SsFR-JrZPHO0auUNlvzPrY"></script>
-  </div>
 
 </div>

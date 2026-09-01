@@ -9,7 +9,7 @@ importance: 4
 
 Here we present some simulation results from various former projects.
 
-<h5>Phase-field model of solidification process</h5> 
+<h5 id="phase-field-solidification">Phase-field model of solidification</h5>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -47,4 +47,3 @@ Here we present some simulation results from various former projects.
 <div class="caption">
     Animation of solidification process of a metal.
 </div>
-
