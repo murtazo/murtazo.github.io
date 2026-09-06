@@ -11,9 +11,9 @@ My research is in **numerical analysis and scientific computing for partial diff
 
 ## Structure-preserving numerical methods
 
-<figure class="research-figure research-figure--square">
-  <img src="/assets/img/research/convex-limited-kpp.png" alt="Convex-limited high-order finite element solution of the KPP rotating-wave problem" loading="lazy">
-  <figcaption>High-order convex limiting preserves the sharp rotating-wave structure of the KPP problem.</figcaption>
+<figure class="research-figure">
+  <img src="/assets/img/research/vlasov-poisson-vortex.png" alt="Coherent vortices preserved in a stabilized Vlasov–Poisson simulation" loading="lazy">
+  <figcaption>Structure-preserving stabilization retains coherent phase-space vortices and their fine-scale interaction.</figcaption>
 </figure>
 
 My expertise includes:
@@ -26,8 +26,8 @@ My expertise includes:
 ## Fluid dynamics and magnetohydrodynamics
 
 <figure class="research-figure">
-  <img src="/assets/img/research/mhd-kelvin-helmholtz.png" alt="High-order magnetohydrodynamic simulation of the Kelvin–Helmholtz instability" loading="lazy">
-  <figcaption>Fine-scale structures in a high-order simulation of magnetized Kelvin–Helmholtz flow.</figcaption>
+  <img src="/assets/img/research/orszag-tang-magnetic-field.png" alt="Magnetic-field structures in an Orszag–Tang magnetohydrodynamic simulation" loading="lazy">
+  <figcaption>Fine magnetic structures emerging in the Orszag–Tang vortex—a demanding benchmark for high-order MHD methods.</figcaption>
 </figure>
 
 My expertise includes:
@@ -40,9 +40,9 @@ My expertise includes:
 
 ## Kinetic plasma models and fusion
 
-<figure class="research-figure">
-  <img src="/assets/img/research/vlasov-poisson-vortex.png" alt="Vortex interaction in a stabilized Vlasov–Poisson simulation" loading="lazy">
-  <figcaption>Nonlinear phase-space vortex interaction in a Vlasov–Poisson simulation.</figcaption>
+<figure class="research-figure research-figure--phase-space">
+  <img src="/assets/img/research/weibel-phase-space.png" alt="Velocity-space structures from a Vlasov–Maxwell simulation of the Weibel instability" loading="lazy">
+  <figcaption>Filamentation and folded velocity-space structures produced by the Weibel instability.</figcaption>
 </figure>
 
 My expertise includes:
