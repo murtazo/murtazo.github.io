@@ -32,6 +32,48 @@ body {
   font-size: 130%;
 }
 
+.research-page {
+  .research-figure {
+    background: #f7f7f7;
+    border: 1px solid $grey-color-light;
+    margin: 1.25rem 0 1.5rem;
+    overflow: hidden;
+
+    img {
+      display: block;
+      height: 250px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    figcaption {
+      color: $grey-color;
+      font-size: 0.82rem;
+      font-style: italic;
+      line-height: 1.45;
+      padding: 0.65rem 0.85rem 0.75rem;
+    }
+  }
+
+  .research-figure--square img {
+    object-position: center 44%;
+  }
+
+  .research-figure--wide img {
+    height: auto;
+  }
+
+  @media (max-width: 576px) {
+    .research-figure img {
+      height: 190px;
+    }
+
+    .research-figure--wide img {
+      height: auto;
+    }
+  }
+}
+
 // Profile
 .profile {
   img {
