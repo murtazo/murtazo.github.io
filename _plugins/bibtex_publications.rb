@@ -2,6 +2,12 @@
 
 require "cgi"
 
+begin
+  require "liquid"
+rescue LoadError
+  # The standalone publication generator needs only the renderer below.
+end
+
 module BibtexPublications
   SECTION_TITLES = {
     "articles" => "Journal articles and preprints",
@@ -207,14 +213,16 @@ module BibtexPublications
     end
   end
 
-  class Tag < Liquid::Tag
-    def render(context)
-      site = context.registers[:site]
-      path = File.join(site.source, "_bibliography", "papers.bib")
-      canonical_path = File.join(site.source, "_bibliography", "nazarov_references.bib")
-      Renderer.new.render(path, canonical_path: canonical_path)
+  if defined?(Liquid::Tag)
+    class Tag < Liquid::Tag
+      def render(context)
+        site = context.registers[:site]
+        path = File.join(site.source, "_bibliography", "papers.bib")
+        canonical_path = File.join(site.source, "_bibliography", "nazarov_references.bib")
+        Renderer.new.render(path, canonical_path: canonical_path)
+      end
     end
+
+    Liquid::Template.register_tag("publications_bibliography", Tag)
   end
 end
-
-Liquid::Template.register_tag("publications_bibliography", BibtexPublications::Tag)
