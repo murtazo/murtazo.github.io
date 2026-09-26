@@ -58,3 +58,8 @@ ga('create', '{{ site.google_analytics }}', 'auto');
 ga('send', 'pageview');
 </script>
 {% endif %}
+
+{% if site.enable_goatcounter and site.goatcounter_url %}
+<!-- Privacy-friendly visitor analytics -->
+<script data-goatcounter="{{ site.goatcounter_url }}" async src="https://gc.zgo.at/count.js"></script>
+{% endif %}

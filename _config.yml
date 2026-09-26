@@ -47,6 +47,7 @@ contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
+goatcounter_url: https://murtazo.goatcounter.com/count
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -146,6 +147,7 @@ plugins:
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:  false
+enable_goatcounter:       true
 enable_katex:             true
 enable_mansory:           true
 enable_progressbar:       true
