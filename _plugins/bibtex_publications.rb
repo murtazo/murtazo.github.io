@@ -11,6 +11,7 @@ end
 module BibtexPublications
   SECTION_TITLES = {
     "articles" => "Journal articles and preprints",
+    "software" => "Software",
     "proceedings" => "Conference proceedings",
     "popular" => "Popular science presentations",
     "theses" => "Thesis and dissertations",
