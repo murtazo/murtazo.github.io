@@ -9,11 +9,6 @@ layout: default
     <!-- <h1 class="post-title"><span class="font-weight-bold">{{ name | first }}</span> {{ name | last }}</h1> -->
     <h1 class="post-title"><span class="font-weight-bold">{{ name | first }} {{ name | last }} </span></h1>
     <p class="post-description">{{ page.description }}</p>
-    {% if page.profile.address %}
-    <div class="profile-links">
-      {{ page.profile.address }}
-    </div>
-    {% endif %}
   </header>
 
   <article class="about-page">
@@ -25,6 +20,11 @@ layout: default
         <div class="profile col-4 {% if page.profile.align == 'left' %}order-first{% endif %}">
           {% if page.profile.image %}
             <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="Portrait of {{ site.title }}">
+          {% endif %}
+          {% if page.profile.address %}
+            <div class="address">
+              {{ page.profile.address }}
+            </div>
           {% endif %}
         </div>
         {% endif %}
