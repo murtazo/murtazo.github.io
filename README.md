@@ -32,5 +32,12 @@ the papers shown under "Recent" on the home page:
 ruby bin/generate_publications
 ```
 
+## Figures
+
+Pages show compressed `.jpg` versions of the large figures. The original
+full-resolution files are kept next to them under the same name (`.png`), and
+the full-size profile photo is `assets/img/profile-original.jpg`. Keep the
+originals when adding a compressed copy.
+
 Pages that contain LaTeX need `math: true` in their front matter so that
 MathJax is loaded.
