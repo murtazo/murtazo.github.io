@@ -59,15 +59,15 @@ shock ways and contact line and so on.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" 
-        src="{{ '/assets/arts/explosion/b_den_t_2_411.png' | relative_url }}"/>
+        src="{{ '/assets/arts/explosion/b_den_t_2_411.jpg' | relative_url }}"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" 
-        src="{{ '/assets/arts/explosion/b_den_t_2_713.png' | relative_url }}"/>
+        src="{{ '/assets/arts/explosion/b_den_t_2_713.jpg' | relative_url }}"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" 
-        src="/assets/arts/explosion/b_den_t_4_250.png"/>
+        src="/assets/arts/explosion/b_den_t_4_250.jpg"/>
     </div>
 </div>
 <div class="caption">

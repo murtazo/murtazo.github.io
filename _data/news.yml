@@ -1,0 +1,13 @@
+# Items for the "Recent" list on the home page that are not papers:
+# interviews, talks, awards, software releases, and so on.
+# Papers are added automatically from _bibliography/papers.bib
+# (run `ruby bin/generate_publications` after editing it).
+#
+# Keep the date in quotes as "YYYY-MM-DD". The newest items across both
+# lists are shown first; `when` is the label shown next to the item.
+
+- date: "2026-07-27"
+  when: "Jul 2026"
+  html: >-
+    Interview with Asia-Plus:
+    <a href="https://asiaplus.news/en/2026/07/27/in-search-of-the-suns-energy-how-a-scientist-from-tajikistan-is-helping-to-bring-the-thermonuclear-revolution-closer/" target="_blank" rel="noopener">In search of the Sun’s energy</a>.

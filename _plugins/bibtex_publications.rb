@@ -218,6 +218,86 @@ module BibtexPublications
     end
   end
 
+  # Builds the newest entries of the "articles" section for the Recent list
+  # on the home page (written to _data/recent_papers.yml by
+  # bin/generate_publications).
+  class RecentRenderer
+    MONTHS = %w[Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec].freeze
+    SELF_NAME = /nazarov/i
+
+    def items(path, limit: 6)
+      Parser.read(path)
+            .select { |entry| entry["section"] == "articles" }
+            .sort_by { |entry| entry.fetch("order", "9999").to_i }
+            .first(limit)
+            .map { |entry| item(entry) }
+    end
+
+    private
+
+    def item(entry)
+      year = entry["year"].to_s[/\d{4}/]
+      month = month_of(entry, year)
+      {
+        "date" => format("%s-%02d-01", year, month || 1),
+        "when" => month ? "#{MONTHS[month - 1]} #{year}" : year,
+        "html" => html(entry)
+      }
+    end
+
+    # Month from an optional `month` field, otherwise from the arXiv
+    # identifier (YYMM.NNNNN) when it matches the entry's year.
+    def month_of(entry, year)
+      value = entry["month"].to_s.strip
+      unless value.empty?
+        return value.to_i if value.to_i.between?(1, 12)
+
+        index = MONTHS.index { |name| value.downcase.start_with?(name.downcase) }
+        return index + 1 if index
+      end
+
+      match = "#{entry['arxiv']} #{entry['details']}".match(/(\d{2})(\d{2})\.\d{4,5}/)
+      return nil unless match && "20#{match[1]}" == year
+
+      month = match[2].to_i
+      month.between?(1, 12) ? month : nil
+    end
+
+    def html(entry)
+      venue = (entry["journal"] || entry["venue"]).to_s
+      preprint = venue.match?(/arxiv/i)
+      label = preprint ? "Preprint" : "Paper"
+      label += " in <i>#{CGI.escapeHTML(venue.delete('{}'))}</i>" unless preprint || venue.empty?
+      coauthors = authors(entry).reject { |name| name.match?(SELF_NAME) }
+      label += " with #{join_names(coauthors)}" unless coauthors.empty?
+
+      title = CGI.escapeHTML(entry["title"].to_s.delete("{}"))
+      link = link_for(entry)
+      title = %(<a href="#{CGI.escapeHTML(link)}">#{title}</a>) if link
+      "#{label}: #{title}."
+    end
+
+    def authors(entry)
+      entry["author"].to_s.split(/\s*,\s*|\s+and\s+/)
+           .map { |name| name.strip.sub(/\.+\z/, "") }
+           .reject(&:empty?)
+    end
+
+    def join_names(names)
+      return "#{names.first(2).join(', ')} and others" if names.size > 3
+      return names.first if names.size == 1
+
+      "#{names[0...-1].join(', ')} and #{names.last}"
+    end
+
+    def link_for(entry)
+      link = %w[arxiv doi url pdf].map { |field| entry[field].to_s.strip }.find { |value| !value.empty? }
+      return nil unless link
+
+      link.start_with?("10.") ? "https://doi.org/#{link}" : link
+    end
+  end
+
   if defined?(Liquid::Tag)
     class Tag < Liquid::Tag
       def render(context)

@@ -22,9 +22,11 @@ bundle exec jekyll serve
 | Home, Research, Teaching, Group, Media pages | `_pages/` |
 | Simulation gallery (Projects page) | `_data/simulations.yml`, `_projects/` |
 | Publications | `_bibliography/papers.bib` → `bin/generate_publications` writes `_includes/publications.html` |
+| "Recent" list on Home | newest papers from `papers.bib` (generated into `_data/recent_papers.yml`) plus hand-written items in `_data/news.yml` |
 | Styles | `_sass/` |
 
-After editing `_bibliography/papers.bib`, regenerate the publication list:
+After editing `_bibliography/papers.bib`, regenerate the publication list and
+the papers shown under "Recent" on the home page:
 
 ```bash
 ruby bin/generate_publications

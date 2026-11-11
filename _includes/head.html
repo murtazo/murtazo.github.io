@@ -26,6 +26,38 @@
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
+{% if page.url == "/" %}
+<!-- Profile data for search engines -->
+{%- capture same_as -%}
+{%- if site.orcid_id -%}https://orcid.org/{{ site.orcid_id }}|{%- endif -%}
+{%- if site.scholar_userid -%}https://scholar.google.com/citations?user={{ site.scholar_userid }}|{%- endif -%}
+{%- if site.research_gate_profile -%}https://www.researchgate.net/profile/{{ site.research_gate_profile }}|{%- endif -%}
+{%- if site.linkedin_username -%}https://www.linkedin.com/in/{{ site.linkedin_username }}|{%- endif -%}
+{%- endcapture %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ site.title | jsonify }},
+  "url": {{ "/" | absolute_url | jsonify }},
+  "image": {{ "/assets/img/profile.jpg" | absolute_url | jsonify }},
+  "jobTitle": {{ site.job_title | jsonify }},
+  "email": {{ site.email | prepend: "mailto:" | jsonify }},
+  "worksFor": {
+    "@type": "CollegeOrUniversity",
+    "name": "Uppsala University",
+    "url": "https://www.uu.se"
+  },
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Division of Scientific Computing, Department of Information Technology, Uppsala University",
+    "url": "https://www.it.uu.se/research/scicomp"
+  },
+  "sameAs": {{ same_as | split: "|" | jsonify }}
+}
+</script>
+{% endif %}
+
 <!-- Open Graph -->
 {% if site.serve_og_meta %}
 <meta property="og:site_name" content="{{ site.title }}" />

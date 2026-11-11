@@ -3,7 +3,7 @@ layout: page
 title: Miscellaneous projects
 description: The collection of various projects in computational fluid dynamics 
 # img: /assets/arts/explosion/expl.png
-img: /assets/arts/phase_field/aniso.png
+img: /assets/arts/phase_field/aniso.jpg
 importance: 4
 ---
 
@@ -14,11 +14,11 @@ Here we present some simulation results from various former projects.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" 
-        src="{{ '/assets/arts/phase_field/iso.png' | relative_url }}"/>
+        src="{{ '/assets/arts/phase_field/iso.jpg' | relative_url }}"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" 
-        src="{{ '/assets/arts/phase_field/aniso.png' | relative_url }}"/>
+        src="{{ '/assets/arts/phase_field/aniso.jpg' | relative_url }}"/>
     </div>
 </div>
 <div class="caption">

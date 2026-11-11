@@ -3,6 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: Murtazo Nazarov
+job_title: Associate Professor in Scientific Computing # used in search-engine profile data
 email: murtazo.nazarov@uu.se
 description: >
   Murtazo Nazarov, Associate Professor in Scientific Computing at Uppsala
@@ -19,7 +20,7 @@ last_updated: false # set to true if you want to display last updated in the foo
 # -----------------------------------------------------------------------------
 
 navbar_fixed: false
-footer_fixed: true
+footer_fixed: false
 
 # -----------------------------------------------------------------------------
 # Open Graph
@@ -104,7 +105,6 @@ plugins:
   - jekyll-email-protect
   - jekyll-sitemap
   - jemoji
-  - bootstrap
   # - jekyll/scholar
   # - bootstrap
   # - material-sass
