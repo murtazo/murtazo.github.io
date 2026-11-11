@@ -1,4 +1,5 @@
 ---
+math: true
 layout: page
 title: Nonlinear stabilization for Euler equations
 description: This project is about viscous regularizations of the compressible Euler equations. The finite element discretization is stabilized using artificial viscosity operators. 

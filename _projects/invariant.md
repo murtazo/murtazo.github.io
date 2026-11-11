@@ -1,4 +1,5 @@
 ---
+math: true
 layout: page
 title: Invariant domain preserving schemes
 description: The aim of the project is to construct positivity, maximum principle, and invariant domain preserving continuous finite element methods for nonlinear conservation laws.

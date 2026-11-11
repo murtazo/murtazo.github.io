@@ -3,10 +3,14 @@
 # -----------------------------------------------------------------------------
 
 title: Murtazo Nazarov
-email: murtazo.nazarov@it.uu.se
-description: > 
+email: murtazo.nazarov@uu.se
+description: >
+  Murtazo Nazarov, Associate Professor in Scientific Computing at Uppsala
+  University. Structure-preserving numerical methods for partial differential
+  equations, computational fluid dynamics, magnetohydrodynamics, and kinetic
+  plasma models.
 footer_text: >
-url:  # the base hostname & protocol for your site
+url: https://murtazo.github.io # the base hostname & protocol for your site
 baseurl: ""  # user site is served from the domain root
 last_updated: false # set to true if you want to display last updated in the footer
 
@@ -17,25 +21,23 @@ last_updated: false # set to true if you want to display last updated in the foo
 navbar_fixed: false
 footer_fixed: true
 
-# TODO: add layout settings (single page vs. multi-page)
-
 # -----------------------------------------------------------------------------
 # Open Graph
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # To achieve this, change serve_og_meta to true and then provide the URL of the
 # preview image as the value of og_image.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+og_image: /assets/img/og-image.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
 github_username: # your GitHub user name
-twitter_username: murtazo.nazarov@gmail.com # your Twitter handle
+twitter_username: murtazonazarov # your Twitter handle
 linkedin_username: murtazo-nazarov-25587162
-scholar_userid: murtazo.nazarov@gmail.com
+scholar_userid: n16CWycAAAAJ
 orcid_id: 0000-0003-4962-9048 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -43,45 +45,19 @@ publons_id: # your ID on Publons
 research_gate_profile: Murtazo_Nazarov
 blogger_url: # your blogger URL
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note:
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: # your Google Analytics code
 goatcounter_url: https://murtazo.goatcounter.com/count
-
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
-
-# Pagination
-pagination:
-  enabled: true
-
-# Comments
-disqus_shortname: al-folio # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
   projects:
     output: true
     permalink: /projects/:path/
-  teaching:
-    output: true
-    permalink: /teaching/:path/
-
-news_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -91,7 +67,6 @@ news_limit: 5
 markdown: kramdown
 highlighter: rouge
 highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
-mathjax: true
 kramdown:
   math_engine: mathjax
   input: GFM
@@ -105,7 +80,19 @@ kramdown:
 
 # Includes & excludes
 include: ['_pages']
-exclude: [vendor]
+exclude:
+  - vendor
+  - bin
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+
+defaults:
+  - scope:
+      path: "googlefcd80bd2372054d6.html"
+    values:
+      sitemap: false
 
 # kramdown:
 #   math_engine: mathjax
@@ -115,7 +102,7 @@ exclude: [vendor]
 # Plug-ins
 plugins:
   - jekyll-email-protect
-  - jekyll-paginate-v2
+  - jekyll-sitemap
   - jemoji
   - bootstrap
   # - jekyll/scholar
@@ -148,8 +135,8 @@ plugins:
 
 enable_google_analytics:  false
 enable_goatcounter:       true
-enable_katex:             true
-enable_mansory:           true
+enable_katex:             false
+enable_mansory:           false
 enable_progressbar:       true
 enable_tooltips:          false
 show_social_icons:        true

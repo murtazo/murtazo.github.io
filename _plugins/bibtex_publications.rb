@@ -106,15 +106,19 @@ module BibtexPublications
       apply_canonical_bibtex!(entries, canonical_path) if canonical_path && File.exist?(canonical_path)
 
       output = ["<!-- Generated from _bibliography/papers.bib using canonical records from nazarov_references.bib; do not edit by hand. -->"]
-      output << '<ol class="publications-list" reversed>'
+      # One numbered list per section; `start` keeps the reversed numbering
+      # continuous across sections.
+      remaining = SECTION_TITLES.keys.sum { |section| entries.count { |entry| entry["section"] == section } }
       SECTION_TITLES.each do |section, title|
         selected = entries.select { |entry| entry["section"] == section }
         next if selected.empty?
 
-        output << "<h33>#{title}</h33>"
+        output << %(<h2 class="publications-section-title">#{title}</h2>)
+        output << %(<ol class="publications-list" reversed start="#{remaining}">)
         selected.each { |entry| output << render_entry(entry) }
+        output << "</ol>"
+        remaining -= selected.size
       end
-      output << "</ol>"
       output << render_dialog(entries)
       output.join("\n")
     end

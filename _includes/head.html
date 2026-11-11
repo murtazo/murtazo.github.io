@@ -3,7 +3,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <title>{{ site.title }}{% if page.title and page.url != "/" %} | {{ page.title }}{% endif %}</title>
-<meta name="description" content="{{ site.description }}">
+{%- assign meta_description = site.description -%}
+{%- if page.url != "/" and page.description and page.description != "" -%}
+  {%- assign meta_description = page.description -%}
+{%- endif -%}
+{%- assign meta_description = meta_description | strip_html | normalize_whitespace | escape %}
+<meta name="description" content="{{ meta_description }}">
 
 <!-- Bootstrap & MDB -->
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/{{ site.bootstrap.version }}/css/bootstrap.min.css" rel="stylesheet" integrity="{{ site.bootstrap.integrity.css }}" crossorigin="anonymous">
@@ -15,17 +20,19 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons">
 
 <!-- Styles -->
-<link rel="shortcut icon" href="{{ '/assets/img/favicon.ico'  | relative_url }}">
+<link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" sizes="any">
+<link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
 <!-- Open Graph -->
 {% if site.serve_og_meta %}
-<meta property="og:site_name" content="{{ site.description }}" />
-<meta property="og:type" content="object" />
-<meta property="og:title" content="{{ site.name }}" />
-<meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
-<meta property="og:description" content="{{ page.title }}" />
-<meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{% if page.url == "/" %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}" />
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
+<meta property="og:description" content="{{ meta_description }}" />
+<meta property="og:image" content="{{ page.og_image | default: site.og_image | absolute_url }}" />
+<meta name="twitter:card" content="summary" />
 {% endif %}

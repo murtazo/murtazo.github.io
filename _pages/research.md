@@ -26,7 +26,7 @@ My expertise includes:
 ## Fluid dynamics and magnetohydrodynamics
 
 <figure class="research-figure">
-  <img src="/assets/img/research/orszag-tang-magnetic-field.png" alt="Magnetic-field structures in an Orszag–Tang magnetohydrodynamic simulation" loading="lazy">
+  <img src="/assets/img/research/orszag-tang-magnetic-field.jpg" alt="Magnetic-field structures in an Orszag–Tang magnetohydrodynamic simulation" loading="lazy">
   <figcaption>Fine magnetic structures emerging in the Orszag–Tang vortex—a demanding benchmark for high-order MHD methods.</figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ My expertise includes:
 ## Kinetic plasma models and fusion
 
 <figure class="research-figure research-figure--phase-space">
-  <img src="/assets/img/research/weibel-phase-space.png" alt="Velocity-space structures from a Vlasov–Maxwell simulation of the Weibel instability" loading="lazy">
+  <img src="/assets/img/research/weibel-phase-space.jpg" alt="Velocity-space structures from a Vlasov–Maxwell simulation of the Weibel instability" loading="lazy">
   <figcaption>Filamentation and folded velocity-space structures produced by the Weibel instability.</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ My expertise includes:
 ## Additional interests
 
 <figure class="research-figure research-figure--wide">
-  <img src="/assets/img/research/adaptive-car-simulation.png" alt="Adaptive meshes and turbulent flow fields around a full car model" loading="lazy">
+  <img src="/assets/img/research/adaptive-car-simulation.jpg" alt="Adaptive meshes and turbulent flow fields around a full car model" loading="lazy">
   <figcaption>Adaptive meshes and evolving turbulent structures in a full-car flow simulation.</figcaption>
 </figure>
 

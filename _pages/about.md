@@ -12,7 +12,7 @@ description: >
 
 profile:
   align: left
-  image: pic3.jpeg
+  image: profile.jpg
   address: >
     <p>
       <a href="mailto:murtazo.nazarov@uu.se" title="Email">
@@ -50,6 +50,40 @@ Before joining Uppsala University, I was a Visiting Assistant Professor of Mathe
 <a href="https://www.math.tamu.edu/">Texas A&M University</a>, USA.
 
 More information about my current research can be found on the [Research](/research/) page.
+
+## Recent
+
+<ul class="recent-list">
+  <li>
+    <span class="recent-date">Sep 2026</span>
+    <span class="recent-text">Preprint with Katharina Kormann and Junjie Wen:
+    <a href="https://arxiv.org/abs/2609.28412">A second-order structure- and positivity-preserving convex limiting method for the Vlasov equations</a>.</span>
+  </li>
+  <li>
+    <span class="recent-date">Sep 2026</span>
+    <span class="recent-text">Preprint with Robin Dymér and Ken Mattsson:
+    <a href="https://arxiv.org/abs/2609.06452">High-order structure-preserving SBP finite difference methods for the Vlasov–Maxwell system on matrix-free GPUs</a>.</span>
+  </li>
+  <li>
+    <span class="recent-date">Jul 2026</span>
+    <span class="recent-text">Interview with Asia-Plus:
+    <a href="https://asiaplus.news/en/2026/07/27/in-search-of-the-suns-energy-how-a-scientist-from-tajikistan-is-helping-to-bring-the-thermonuclear-revolution-closer/" target="_blank" rel="noopener">In search of the Sun’s energy</a>.</span>
+  </li>
+  <li>
+    <span class="recent-date">Jul 2026</span>
+    <span class="recent-text">Preprint with Rafael Rodriguez-Velasco and Ignacio Tomas:
+    <a href="https://arxiv.org/abs/2607.14286">A structure-preserving numerical method for the compressible resistive-Hall-MHD system</a>.</span>
+  </li>
+  <li>
+    <span class="recent-date">Jun 2026</span>
+    <span class="recent-text">Preprints on
+    <a href="https://arxiv.org/abs/2606.31662">positivity-preserving dynamical low-rank methods for the Vlasov equation</a>
+    (with Katharina Kormann and Junjie Wen) and
+    <a href="https://arxiv.org/abs/2606.23397">high-order invariant-domain preserving continuous finite elements via graph-Poisson convex limiting</a>.</span>
+  </li>
+</ul>
+
+<p class="recent-more">All papers are on the <a href="{{ '/publications/' | relative_url }}">Publications</a> page; interviews and talks are on the <a href="{{ '/media/' | relative_url }}">Media</a> page.</p>
 
 ## Visiting address
 
